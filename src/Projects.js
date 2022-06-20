@@ -28,7 +28,7 @@ export const Projects = () => {
    </div>
    <div className="about-projects-div">
       <p>
-          I created several mobile responsive projects with React.JS<span id="dot">.</span>
+          I created several mobile responsive websites with React.JS<span id="dot">.</span>
       </p>
    </div>
   <div className="main-card-div">

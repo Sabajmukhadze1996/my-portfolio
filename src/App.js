@@ -31,7 +31,7 @@ function App() {
            <h1>Welcome</h1>
          </div>
          <div className="img-div">
-            <img src={myImage} alt="my-image" />
+            <img src={myImage} id="my-img" alt="my-image" />
          </div>
          <div className="name-div">
             <h1>Hello<span id="dot">.</span> I'm Saba Jmukhadze</h1>
