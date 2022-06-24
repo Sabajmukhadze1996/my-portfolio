@@ -30,11 +30,11 @@ function App() {
          <div className="welcome-div">
            <h1>Welcome</h1>
          </div>
-         <div className="img-div">
+         <div className="img-div mt-2">
             <img src={myImage} id="my-img" alt="my-image" />
          </div>
-         <div className="name-div">
-            <h1>Hello<span id="dot">.</span> I'm Saba Jmukhadze</h1>
+         <div className="name-div mt-5">
+            <h1>Hello<span id="dot">.</span> I'm Saba Jmukhadze, Self Taught</h1>
             <h1 id="dev-text">Front End Web Developer<span id="dot">.</span></h1>
          </div>
          <Contact />
@@ -54,7 +54,8 @@ function App() {
             were created so, one day I decided to study on
             my own, I think university
             or college is not necessary to become a professional
-            The main thing is to work with yourself as much as possible... 
+            The main thing is to work with yourself as much as possible.
+            my goal is to gain experience at work and daily learning for self-development. 
           </p>
         </div>
         <div className="skill-button-div">

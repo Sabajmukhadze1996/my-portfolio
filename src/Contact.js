@@ -23,7 +23,7 @@ export const Contact = () => {
         <h3 className="mb-3">Contact</h3>
     <div id="contact-flex">
        <p>{houseLogo} Address: Tbilisi, Didi-Dighomi IV-th quarter</p>
-       <p>{phoneLogo} Mobile Number: 558-57-61-42</p>
+       <p>{phoneLogo} Mobile Number: 558 57 61 42</p>
        <p>{emailLogo} Email: sabajmukhadze23@gmail.com</p>
     </div> 
 </div>

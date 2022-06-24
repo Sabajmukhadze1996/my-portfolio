@@ -5,8 +5,8 @@ footer {
     box-shadow: -1px -4px 5px 1px lightskyblue;
     -webkit-box-shadow: -1px -4px 5px 1px lightskyblue;
     -moz-box-shadow: -1px -4px 5px 1px lightskyblue;
-    margin-top: 100px;
-  }
+    margin-top: 200px;
+}
   
   footer a:hover {
     -webkit-transform: scale(0.96);
@@ -23,6 +23,6 @@ footer {
   }
 
   footer * {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     color: whitesmoke;
   }
