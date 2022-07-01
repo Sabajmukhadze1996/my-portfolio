@@ -21,7 +21,7 @@ export const Footer = () => {
         </a>
       </div>
         <h6 className="mt-1">All Rights Reserved By Saba Jmukhadze </h6>
-      <small className="fw-bold">&copy; 2022</small>
+      <small>&copy; 2022</small>
     </footer>
   )
 }

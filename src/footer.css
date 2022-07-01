@@ -25,4 +25,5 @@ footer {
   footer * {
     font-size: 1.2rem !important;
     color: whitesmoke;
+    font-weight: 700 !important;
   }
