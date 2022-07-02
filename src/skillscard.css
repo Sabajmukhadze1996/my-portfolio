@@ -24,6 +24,10 @@ img:hover {
     justify-content: center;
     place-content: center;
     gap: 35px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)), url("./lamp.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 @media(max-width: 828px) {

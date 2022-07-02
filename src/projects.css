@@ -11,6 +11,10 @@ column-gap: 50px !important;
 
 .projects-div {
     margin-top: 60px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)), url("./lamp.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .project-btn-div {
