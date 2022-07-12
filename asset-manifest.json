@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2748bace.css",
-    "main.js": "/my-portfolio/static/js/main.fb3fbd12.js",
+    "main.js": "/my-portfolio/static/js/main.187ad96c.js",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
     "static/media/food-info.png": "/my-portfolio/static/media/food-info.fe2bdeef2dac4d675554.png",
     "static/media/weather-app.png": "/my-portfolio/static/media/weather-app.17d2009606d3c5e54e6f.png",
@@ -9,6 +9,7 @@
     "static/media/university.png": "/my-portfolio/static/media/university.8a8fc9857efe0c011574.png",
     "static/media/earth.png": "/my-portfolio/static/media/earth.40d7b5471bb856f3bd7a.png",
     "static/media/lamp.png": "/my-portfolio/static/media/lamp.ef67b9160b958be0003c.png",
+    "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.63a0fc118ba7f201c027.png",
     "static/media/sass-logo.png": "/my-portfolio/static/media/sass-logo.91714f748188b46f4e33.png",
     "static/media/react.png": "/my-portfolio/static/media/react.07d9e407d4e491c548d5.png",
     "static/media/git.png": "/my-portfolio/static/media/git.bad2b1118eff814bb319.png",
@@ -21,10 +22,10 @@
     "static/media/boots.png": "/my-portfolio/static/media/boots.fbc3329fbe250717720f.png",
     "index.html": "/my-portfolio/index.html",
     "main.2748bace.css.map": "/my-portfolio/static/css/main.2748bace.css.map",
-    "main.fb3fbd12.js.map": "/my-portfolio/static/js/main.fb3fbd12.js.map"
+    "main.187ad96c.js.map": "/my-portfolio/static/js/main.187ad96c.js.map"
   },
   "entrypoints": [
     "static/css/main.2748bace.css",
-    "static/js/main.fb3fbd12.js"
+    "static/js/main.187ad96c.js"
   ]
 }
