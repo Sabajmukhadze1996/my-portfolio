@@ -3,6 +3,7 @@ import petCare from './pet-care.png'
 import foodInfo from './food-info.png'
 import top50Movie from './top-50-movie.png'
 import weatherApp from './weather-app.png'
+import solarSystemImg from './solar-system.png'
 import "./projects.css"
 
 
@@ -34,10 +35,17 @@ export const Projects = () => {
   <div className="main-card-div">
 
     <div className="inner-card">
+      <a href="https://sabajmukhadze1996.github.io/solar-system/" target="_blank">
+        <img src={solarSystemImg}  alt="weatherapp"/>
+      </a>
+  </div>
+
+    <div className="inner-card">
       <a href="https://sabajmukhadze1996.github.io/pet-care-app/" target="_blank">
        <img src={petCare} alt="petcare"/>
       </a>
     </div>
+
 
 
     <div className="inner-card">
