@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.fd0bc0bd.css",
-    "main.js": "/my-portfolio/static/js/main.79a0b0d7.js",
+    "main.css": "/my-portfolio/static/css/main.18d1210f.css",
+    "main.js": "/my-portfolio/static/js/main.78dc839a.js",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
-    "static/media/food-info.png": "/my-portfolio/static/media/food-info.fe2bdeef2dac4d675554.png",
-    "static/media/weather-app.png": "/my-portfolio/static/media/weather-app.17d2009606d3c5e54e6f.png",
-    "static/media/top-50-movie.png": "/my-portfolio/static/media/top-50-movie.ccf75d4bb937f0a23443.png",
-    "static/media/university.png": "/my-portfolio/static/media/university.8a8fc9857efe0c011574.png",
-    "static/media/earth.png": "/my-portfolio/static/media/earth.40d7b5471bb856f3bd7a.png",
-    "static/media/lamp.png": "/my-portfolio/static/media/lamp.ef67b9160b958be0003c.png",
-    "static/media/pet-care.png": "/my-portfolio/static/media/pet-care.90e4eb0d7e943c2bc6be.png",
-    "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.6991f328d3e378969fd8.png",
-    "static/media/sass-logo.png": "/my-portfolio/static/media/sass-logo.91714f748188b46f4e33.png",
-    "static/media/react.png": "/my-portfolio/static/media/react.07d9e407d4e491c548d5.png",
+    "static/media/food-info.png": "/my-portfolio/static/media/food-info.d9037cb599b10386ece2.png",
+    "static/media/weather-app.png": "/my-portfolio/static/media/weather-app.a1031dfdf9e5684c0c28.png",
+    "static/media/movie-app.png": "/my-portfolio/static/media/movie-app.59fba462a4a40c51dad7.png",
+    "static/media/mountain-1.png": "/my-portfolio/static/media/mountain-1.929ea2d824fe3dee835e.png",
+    "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.a09998ec0b2580179e9a.png",
+    "static/media/tbilisi-night-1.png": "/my-portfolio/static/media/tbilisi-night-1.a9a479a7f439895da53e.png",
+    "static/media/javascript-cert.png": "/my-portfolio/static/media/javascript-cert.23b36f9d485c7f24ad3d.png",
+    "static/media/responsive-design.png": "/my-portfolio/static/media/responsive-design.671bdf408964ed41cd48.png",
+    "static/media/sass.png": "/my-portfolio/static/media/sass.91714f748188b46f4e33.png",
     "static/media/git.png": "/my-portfolio/static/media/git.bad2b1118eff814bb319.png",
-    "static/media/node.png": "/my-portfolio/static/media/node.007e99f68b718e476aba.png",
-    "static/media/html.png": "/my-portfolio/static/media/html.a92a549a591f4acb527a.png",
-    "static/media/css.png": "/my-portfolio/static/media/css.02d225c7df0b28341d8d.png",
-    "static/media/js.png": "/my-portfolio/static/media/js.38323140666580081f57.png",
-    "static/media/ts.png": "/my-portfolio/static/media/ts.8e08c2165d60d7ca62a9.png",
-    "static/media/boots.png": "/my-portfolio/static/media/boots.fbc3329fbe250717720f.png",
+    "static/media/pet-care.png": "/my-portfolio/static/media/pet-care.ad3fad76fbd9766594d5.png",
+    "static/media/typescript.png": "/my-portfolio/static/media/typescript.8e08c2165d60d7ca62a9.png",
+    "static/media/bootstrap.png": "/my-portfolio/static/media/bootstrap.fbc3329fbe250717720f.png",
+    "static/media/react.png": "/my-portfolio/static/media/react.0d78c01c39131dcca0b2.png",
+    "static/media/html-css.png": "/my-portfolio/static/media/html-css.5fa52f1a37aa55d53ccb.png",
+    "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
     "index.html": "/my-portfolio/index.html",
-    "main.fd0bc0bd.css.map": "/my-portfolio/static/css/main.fd0bc0bd.css.map",
-    "main.79a0b0d7.js.map": "/my-portfolio/static/js/main.79a0b0d7.js.map"
+    "main.18d1210f.css.map": "/my-portfolio/static/css/main.18d1210f.css.map",
+    "main.78dc839a.js.map": "/my-portfolio/static/js/main.78dc839a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd0bc0bd.css",
-    "static/js/main.79a0b0d7.js"
+    "static/css/main.18d1210f.css",
+    "static/js/main.78dc839a.js"
   ]
 }
