@@ -1,0 +1,255 @@
+.main-about-me {
+    margin-top: 8.5rem;
+    margin-bottom: 0rem !important; 
+}
+
+.person-line-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.3rem;
+  }
+
+    
+ .person-line {
+    border: 1px solid #fff5ee;
+    height: 2.5rem;
+    animation-name: line-line;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/*fassade*/
+
+.img-line-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.img-line {
+    width: 6.1rem;
+    height: 0.15rem;
+    background-color: #fff5ee;
+    transform: translateY(2.6rem);
+    animation-name: line-2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes line-2 {
+    0% {
+        transform: translateY(2.6rem);
+    } 50% {
+        transform: translateX(3rem);
+    } 100% {
+        transform: translateY(2.6rem);
+    }
+  }
+  
+
+.tbilisi-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.tbilisi-img-container  img {
+    max-width: 650px;
+    height: 300px;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: 0px 0px 2.5px #fff5ee;
+    filter: brightness(63%); 
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tbilisi-img-container  img:hover {
+    filter: brightness(70%);
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
+
+@media(max-width: 425px) {
+    .tbilisi-img-container  img {
+        padding: 1rem 0rem !important;
+    }
+}
+
+.about-me-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    max-width: 900px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0px 0px 2.5px #fff5ee;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    cursor: pointer;
+}
+
+.about-me-text:hover {
+   transform: scale(1.04);
+   transition: 0.3s ease;
+}
+
+@media(max-width: 450px) {
+    .about-me-text {
+        padding: 1rem !important;
+    }
+}
+
+.about-me-text p {
+    font-size: 1.15rem;
+    color: #fff5ee;
+    font-weight:200;
+    letter-spacing: 1.1px;
+    line-height: 1.65rem;
+}
+
+.about-me-text span {
+    font-size: 2.5rem;
+}
+
+.cards-main-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+ margin: 1rem auto;
+ max-width: 900px;
+ padding: 1rem;
+ box-shadow: 0px 0px 2.5px #fff5ee;
+ border-radius: 4px;
+}
+
+@media(max-width: 780px) {
+    .cards-main-container {
+        flex-direction: column;
+        gap: 2.6rem;
+    }
+    .cert-img {
+        max-width: 600px !important;
+        width: 100% !important;
+        height: 430px !important;
+
+    }
+}
+
+
+@media(max-width: 509px) {
+    
+    .cert-img {
+        max-width: 600px !important;
+        width: 100% !important;
+        height: 350px !important;
+
+    }
+}
+
+@media(max-width: 411px) {
+    
+    .cert-img {
+        max-width: 600px !important;
+        width: 100% !important;
+        height: 310px !important;
+
+    }
+}
+
+@media(max-width: 393px) {
+    
+    .cert-img {
+        max-width: 600px !important;
+        width: 100% !important;
+        height: 280px !important;
+
+    }
+}
+
+.cert-img {
+    width: 360px;
+    height: 260px;
+    border-radius: 4px;
+    cursor: pointer;
+    filter: brightness(87%);
+}
+
+.cert-img:hover {
+    transform: scale(1.08);
+    transition: 0.3s ease;
+}
+
+.certification-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.certification-title p {
+    color: #fff5ee;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+/* education */
+
+.education-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.education-title p  {
+  color: #fff5ee;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.education-outer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.education-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 2.5px #fff5ee;
+    max-width: 970px;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.education-div .card {
+    filter: brightness(83%);
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+@media(max-width: 361px) {
+    .education-div .card .card-text li  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        text-align: center;
+    }
+}
+
+.education-div .card:hover {
+    transform: scale(1.08);
+    transition: 0.3s ease;
+}
+
+
+
+

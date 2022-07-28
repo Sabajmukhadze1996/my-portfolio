@@ -1,0 +1,108 @@
+.navbar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)) , url("../images/mountain-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    font-size: 2.8rem !important;
+    color: #fff5ee !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.1px !important;
+    white-space: nowrap !important;
+    /* margin-left: 0.4rem; */
+}
+
+.navbar-brand:hover {
+    color: seashell !important;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #fff5ee;
+    letter-spacing: 0.1px;
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin-top: 0.8rem;
+    white-space: nowrap !important;
+    transform: translateX(0.61rem);
+}
+
+.navbar-nav a.active {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.navbar-nav a:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    color: #fff5ee;
+}
+
+.navbar-toggler {
+  color: transparent !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff5ee !important;
+    font-size: 2rem;
+    margin-top: 0.1rem;
+}
+
+@media(max-width: 767px) {
+    .navbar-nav a {
+        padding: 0.37rem;
+        margin-top: 0.1rem;
+        transform: translateX(-0.4rem);
+    }
+    .navbar-brand {
+        transform: translateX(-0.15rem);
+    }
+    .navbar-nav {
+        transform: translateY(-0.5rem);
+        margin-top: 0.1rem;
+    }
+    .navbar-toggler {
+        transform: translateX(1.2rem);
+    }
+}
+
+@media(max-width: 402px) {
+    .navbar-brand {
+        font-size: 2.1rem !important;
+    }
+    .navbar-toggler-icon {
+        font-size: 1.75rem;
+        margin-top: 0.2rem;
+    }
+}
+
+@media(max-width: 325px) {
+    .navbar-brand {
+        font-size: 2rem !important;
+    }
+    .navbar-toggler-icon {
+        font-size: 1.70rem;
+        margin-top: 0.2rem;
+    }
+}
+
+/* responsivness for wider screens */
+
+@media(min-width: 1026px) {
+  .navbar {
+    padding: 0rem 2rem;
+  }
+}
+
+@media(min-width: 1214px) {
+  .navbar {
+    padding: 0rem 4rem;
+  }
+}
+
+@media(min-width: 1324px) {
+  .navbar {
+    padding: 0rem 5.5rem;
+  }
+}

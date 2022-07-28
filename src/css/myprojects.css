@@ -1,0 +1,62 @@
+.my-projects-main-container {
+    margin-top: 8.5rem;
+    color: #fff5ee;
+}
+
+
+.projects-line-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.3rem;
+  }
+  
+  .projects-line {
+     border: 1px solid #fff5ee;
+      height: 2.5rem;
+      animation-name: gear-line;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+
+  .projects-description-div p {
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    padding: 1.5rem 1rem;
+}
+
+#projects-cards {
+    height: 270px;
+}
+
+#pet-care-img {
+ width: 9.67rem;
+ padding: 0.5rem;
+}
+
+#food-info-img {
+    width: 10.6rem;
+    height: 8.76rem;
+    padding: 0.5rem;
+}
+
+#weather-app-img {
+    width: 9.5rem;
+    height: 8.7rem;
+    padding: 0.5rem;
+}
+
+#search-movie-img {
+    width: 9.5rem;
+    height: 8.7rem;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none !important;
+    color: #fff5ee !important;
+}

@@ -1,0 +1,106 @@
+.my-skills-main-container {
+    margin-top: 8.5rem;
+    color: #fff5ee;
+}
+
+.gear-logo-div {
+    display: flex;
+    justify-content: center;
+}
+
+#gear-logo {
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.gear-line-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.3rem;
+  }
+  
+  .gear-line {
+     border: 1px solid #fff5ee;
+      height: 2.5rem;
+      animation-name: gear-line;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+  
+  @keyframes gear-line {
+    0% {
+      transform: translateY(2rem);
+    } 50% {
+      transform: translateY(0rem);
+    } 100% {
+      transform: translateY(2rem);
+    }
+}
+
+.skills-text-div {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 3rem;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+ padding: 1.5rem 0rem;
+}
+
+.skills-text-div h1 {
+    font-weight: 300;
+    font-size: 2.7rem;
+    white-space: nowrap;
+}
+
+@media(max-width: 931px) {
+    .skills-text-div {
+        justify-content: center;
+    }
+    .skills-text-div h1 {
+        margin-left: 0vw !important;
+    }
+}
+
+@media(max-width: 373px) {
+    .skills-text-div h1 {
+        margin-left: 0vw !important;
+        font-size: 11.7vw !important;
+    }
+}
+
+/* cards */
+
+.skills-cards-main-container {
+ margin-top: 2rem !important;
+}
+
+.skills-cards-main-container .card {
+  background-color: transparent !important;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  text-align: center;
+  border: none;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  cursor: pointer;
+}
+
+.skills-cards-main-container .card .card-title {
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.skills-cards-main-container img {
+    width: 135px;
+    align-self: center;
+    filter: brightness(80%);
+}
+
+
+.skills-cards-main-container .card:hover {
+    filter: brightness(140%);
+}

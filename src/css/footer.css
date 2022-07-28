@@ -1,0 +1,57 @@
+footer {
+    color: #fff5ee;
+    padding-top: 1.2rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer a {
+   color: #fff5ee !important;
+   cursor: pointer;
+}
+
+#footer-link-linkedin , #footer-link-github {
+    animation: rotate 3s linear infinite;
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+#footer-link-linkedin {
+    color: orange !important;
+}
+
+
+footer span {
+    font-size: 1.3rem;
+    letter-spacing: 1.4px;
+    font-weight: 300;
+}
+
+.rights-reserved-div {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 0.8rem;
+}
+
+@media(max-width: 630px) {
+    .rights-reserved-div {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       margin-top: 1rem;
+       margin-bottom: 0.2rem;
+    }
+}
+
