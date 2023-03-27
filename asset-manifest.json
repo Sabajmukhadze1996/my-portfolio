@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.a0c7172c.css",
-    "main.js": "/my-portfolio/static/js/main.8487a030.js",
+    "main.js": "/my-portfolio/static/js/main.3d424bfb.js",
     "static/media/background.png": "/my-portfolio/static/media/background.74882d01aa06600409ca.png",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
+    "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
     "static/media/e-commerce.png": "/my-portfolio/static/media/e-commerce.32620ce9f585a5a658e0.png",
     "static/media/food-info.png": "/my-portfolio/static/media/food-info.d9037cb599b10386ece2.png",
     "static/media/weather-app.png": "/my-portfolio/static/media/weather-app.a1031dfdf9e5684c0c28.png",
@@ -12,6 +13,7 @@
     "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.a09998ec0b2580179e9a.png",
     "static/media/tbilisi-night-1.png": "/my-portfolio/static/media/tbilisi-night-1.a9a479a7f439895da53e.png",
     "static/media/bds.jpg": "/my-portfolio/static/media/bds.5d7f93e9f3c6bc57ebd0.jpg",
+    "static/media/angular-img.png": "/my-portfolio/static/media/angular-img.8cbd3d8b9701ad8e21e7.png",
     "static/media/javascript-cert.png": "/my-portfolio/static/media/javascript-cert.23b36f9d485c7f24ad3d.png",
     "static/media/responsive-design.png": "/my-portfolio/static/media/responsive-design.671bdf408964ed41cd48.png",
     "static/media/sass.png": "/my-portfolio/static/media/sass.91714f748188b46f4e33.png",
@@ -24,10 +26,10 @@
     "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
     "index.html": "/my-portfolio/index.html",
     "main.a0c7172c.css.map": "/my-portfolio/static/css/main.a0c7172c.css.map",
-    "main.8487a030.js.map": "/my-portfolio/static/js/main.8487a030.js.map"
+    "main.3d424bfb.js.map": "/my-portfolio/static/js/main.3d424bfb.js.map"
   },
   "entrypoints": [
     "static/css/main.a0c7172c.css",
-    "static/js/main.8487a030.js"
+    "static/js/main.3d424bfb.js"
   ]
 }
