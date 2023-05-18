@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.8a0438b7.css",
-    "main.js": "/my-portfolio/static/js/main.aad7f7ed.js",
+    "main.css": "/my-portfolio/static/css/main.c49a62bd.css",
+    "main.js": "/my-portfolio/static/js/main.dc294069.js",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
     "static/media/e-commerce.png": "/my-portfolio/static/media/e-commerce.32620ce9f585a5a658e0.png",
@@ -9,7 +9,6 @@
     "static/media/weather-app.png": "/my-portfolio/static/media/weather-app.a1031dfdf9e5684c0c28.png",
     "static/media/movie-app.png": "/my-portfolio/static/media/movie-app.59fba462a4a40c51dad7.png",
     "static/media/react-native.png": "/my-portfolio/static/media/react-native.07d31086afe9ce0233a9.png",
-    "static/media/my-logo.jpg": "/my-portfolio/static/media/my-logo.e9ad0180ad1a97d8dc76.jpg",
     "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.a09998ec0b2580179e9a.png",
     "static/media/tbilisi-night-1.png": "/my-portfolio/static/media/tbilisi-night-1.a9a479a7f439895da53e.png",
     "static/media/bds.jpg": "/my-portfolio/static/media/bds.5d7f93e9f3c6bc57ebd0.jpg",
@@ -18,6 +17,7 @@
     "static/media/responsive-design.png": "/my-portfolio/static/media/responsive-design.671bdf408964ed41cd48.png",
     "static/media/ge.jpg": "/my-portfolio/static/media/ge.59d52b3b25ab07986f98.jpg",
     "static/media/sass.png": "/my-portfolio/static/media/sass.91714f748188b46f4e33.png",
+    "static/media/my-logoo.png": "/my-portfolio/static/media/my-logoo.3789d6a6bf8b59041621.png",
     "static/media/git.png": "/my-portfolio/static/media/git.bad2b1118eff814bb319.png",
     "static/media/us.jpg": "/my-portfolio/static/media/us.f01ab32a4ff2801ce3a7.jpg",
     "static/media/pet-care.png": "/my-portfolio/static/media/pet-care.ad3fad76fbd9766594d5.png",
@@ -27,11 +27,11 @@
     "static/media/html-css.png": "/my-portfolio/static/media/html-css.5fa52f1a37aa55d53ccb.png",
     "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
     "index.html": "/my-portfolio/index.html",
-    "main.8a0438b7.css.map": "/my-portfolio/static/css/main.8a0438b7.css.map",
-    "main.aad7f7ed.js.map": "/my-portfolio/static/js/main.aad7f7ed.js.map"
+    "main.c49a62bd.css.map": "/my-portfolio/static/css/main.c49a62bd.css.map",
+    "main.dc294069.js.map": "/my-portfolio/static/js/main.dc294069.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a0438b7.css",
-    "static/js/main.aad7f7ed.js"
+    "static/css/main.c49a62bd.css",
+    "static/js/main.dc294069.js"
   ]
 }
