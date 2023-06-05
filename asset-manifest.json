@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a18b1945.css",
-    "main.js": "/my-portfolio/static/js/main.9cd697c3.js",
+    "main.css": "/my-portfolio/static/css/main.f109916c.css",
+    "main.js": "/my-portfolio/static/js/main.a27bbeba.js",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
     "static/media/e-commerce.png": "/my-portfolio/static/media/e-commerce.32620ce9f585a5a658e0.png",
@@ -14,7 +14,6 @@
     "static/media/mixkit-modern-click-box-check-1120.wav": "/my-portfolio/static/media/mixkit-modern-click-box-check-1120.4373782cd3def71dd662.wav",
     "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.a09998ec0b2580179e9a.png",
     "static/media/tbilisi-night-1.png": "/my-portfolio/static/media/tbilisi-night-1.a9a479a7f439895da53e.png",
-    "static/media/bds.jpg": "/my-portfolio/static/media/bds.5d7f93e9f3c6bc57ebd0.jpg",
     "static/media/javascript-cert.png": "/my-portfolio/static/media/javascript-cert.23b36f9d485c7f24ad3d.png",
     "static/media/responsive-design.png": "/my-portfolio/static/media/responsive-design.671bdf408964ed41cd48.png",
     "static/media/ge.jpg": "/my-portfolio/static/media/ge.59d52b3b25ab07986f98.jpg",
@@ -29,11 +28,11 @@
     "static/media/mysql.png": "/my-portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
     "index.html": "/my-portfolio/index.html",
-    "main.a18b1945.css.map": "/my-portfolio/static/css/main.a18b1945.css.map",
-    "main.9cd697c3.js.map": "/my-portfolio/static/js/main.9cd697c3.js.map"
+    "main.f109916c.css.map": "/my-portfolio/static/css/main.f109916c.css.map",
+    "main.a27bbeba.js.map": "/my-portfolio/static/js/main.a27bbeba.js.map"
   },
   "entrypoints": [
-    "static/css/main.a18b1945.css",
-    "static/js/main.9cd697c3.js"
+    "static/css/main.f109916c.css",
+    "static/js/main.a27bbeba.js"
   ]
 }
