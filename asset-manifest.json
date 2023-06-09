@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c7eab82f.css",
-    "main.js": "/my-portfolio/static/js/main.160d67ae.js",
+    "main.css": "/my-portfolio/static/css/main.0dc84e58.css",
+    "main.js": "/my-portfolio/static/js/main.d37f896e.js",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
     "static/media/e-commerce.png": "/my-portfolio/static/media/e-commerce.32620ce9f585a5a658e0.png",
@@ -11,7 +11,6 @@
     "static/media/mixkit-mouse-hard-clicking-1111.wav": "/my-portfolio/static/media/mixkit-mouse-hard-clicking-1111.cf5d3cf0bc7bbb944df5.wav",
     "static/media/mixkit-on-or-off-light-switch-tap-2585.wav": "/my-portfolio/static/media/mixkit-on-or-off-light-switch-tap-2585.1b36d2edfd59606dc2a2.wav",
     "static/media/react-native.png": "/my-portfolio/static/media/react-native.07d31086afe9ce0233a9.png",
-    "static/media/mixkit-modern-click-box-check-1120.wav": "/my-portfolio/static/media/mixkit-modern-click-box-check-1120.4373782cd3def71dd662.wav",
     "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.a09998ec0b2580179e9a.png",
     "static/media/tbilisi-night-1.png": "/my-portfolio/static/media/tbilisi-night-1.a9a479a7f439895da53e.png",
     "static/media/javascript-cert.png": "/my-portfolio/static/media/javascript-cert.23b36f9d485c7f24ad3d.png",
@@ -28,11 +27,11 @@
     "static/media/mysql.png": "/my-portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
     "index.html": "/my-portfolio/index.html",
-    "main.c7eab82f.css.map": "/my-portfolio/static/css/main.c7eab82f.css.map",
-    "main.160d67ae.js.map": "/my-portfolio/static/js/main.160d67ae.js.map"
+    "main.0dc84e58.css.map": "/my-portfolio/static/css/main.0dc84e58.css.map",
+    "main.d37f896e.js.map": "/my-portfolio/static/js/main.d37f896e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7eab82f.css",
-    "static/js/main.160d67ae.js"
+    "static/css/main.0dc84e58.css",
+    "static/js/main.d37f896e.js"
   ]
 }
