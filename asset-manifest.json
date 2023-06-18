@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.785bb02e.css",
-    "main.js": "/my-portfolio/static/js/main.298223fe.js",
+    "main.css": "/my-portfolio/static/css/main.c68b9136.css",
+    "main.js": "/my-portfolio/static/js/main.c0d9bbfa.js",
     "static/media/sigma-male.mp4": "/my-portfolio/static/media/sigma-male.b45fb361f824b11c069d.mp4",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
+    "static/media/into-img-1.jpg": "/my-portfolio/static/media/into-img-1.6c41a191e62be05e297d.jpg",
     "static/media/e-commerce.png": "/my-portfolio/static/media/e-commerce.32620ce9f585a5a658e0.png",
     "static/media/food-info.png": "/my-portfolio/static/media/food-info.d9037cb599b10386ece2.png",
     "static/media/weather-app.png": "/my-portfolio/static/media/weather-app.a1031dfdf9e5684c0c28.png",
     "static/media/big-ben.jpg": "/my-portfolio/static/media/big-ben.ed263795ab1cf232bbd6.jpg",
     "static/media/movie-app.png": "/my-portfolio/static/media/movie-app.59fba462a4a40c51dad7.png",
-    "static/media/mixkit-mouse-hard-clicking-1111.wav": "/my-portfolio/static/media/mixkit-mouse-hard-clicking-1111.cf5d3cf0bc7bbb944df5.wav",
-    "static/media/mixkit-on-or-off-light-switch-tap-2585.wav": "/my-portfolio/static/media/mixkit-on-or-off-light-switch-tap-2585.1b36d2edfd59606dc2a2.wav",
     "static/media/react-native.png": "/my-portfolio/static/media/react-native.07d31086afe9ce0233a9.png",
+    "static/media/intro-img-2.jpg": "/my-portfolio/static/media/intro-img-2.a4610bb0804b5247630b.jpg",
+    "static/media/gta-menu-3.wav": "/my-portfolio/static/media/gta-menu-3.d4cafe38a833cf38b8c7.wav",
+    "static/media/gta-intro.mp3": "/my-portfolio/static/media/gta-intro.081a7e57d0f5c779a273.mp3",
+    "static/media/gta-menu.wav": "/my-portfolio/static/media/gta-menu.98c8bd05a43fd8439933.wav",
+    "static/media/gta-menu-2.wav": "/my-portfolio/static/media/gta-menu-2.8fc352c515b2568bbf20.wav",
+    "static/media/intro-img-3.jpg": "/my-portfolio/static/media/intro-img-3.4f01eeef7571097236a0.jpg",
     "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.a09998ec0b2580179e9a.png",
     "static/media/tbilisi-night-1.png": "/my-portfolio/static/media/tbilisi-night-1.a9a479a7f439895da53e.png",
     "static/media/javascript-cert.png": "/my-portfolio/static/media/javascript-cert.23b36f9d485c7f24ad3d.png",
@@ -29,11 +34,11 @@
     "static/media/mysql.png": "/my-portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
     "index.html": "/my-portfolio/index.html",
-    "main.785bb02e.css.map": "/my-portfolio/static/css/main.785bb02e.css.map",
-    "main.298223fe.js.map": "/my-portfolio/static/js/main.298223fe.js.map"
+    "main.c68b9136.css.map": "/my-portfolio/static/css/main.c68b9136.css.map",
+    "main.c0d9bbfa.js.map": "/my-portfolio/static/js/main.c0d9bbfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.785bb02e.css",
-    "static/js/main.298223fe.js"
+    "static/css/main.c68b9136.css",
+    "static/js/main.c0d9bbfa.js"
   ]
 }
