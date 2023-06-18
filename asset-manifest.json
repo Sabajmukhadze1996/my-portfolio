@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.db68eb08.css",
-    "main.js": "/my-portfolio/static/js/main.d40d2830.js",
+    "main.css": "/my-portfolio/static/css/main.785bb02e.css",
+    "main.js": "/my-portfolio/static/js/main.8ed77e17.js",
+    "static/media/sigma-male.mp4": "/my-portfolio/static/media/sigma-male.b45fb361f824b11c069d.mp4",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
     "static/media/e-commerce.png": "/my-portfolio/static/media/e-commerce.32620ce9f585a5a658e0.png",
@@ -28,11 +29,11 @@
     "static/media/mysql.png": "/my-portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
     "index.html": "/my-portfolio/index.html",
-    "main.db68eb08.css.map": "/my-portfolio/static/css/main.db68eb08.css.map",
-    "main.d40d2830.js.map": "/my-portfolio/static/js/main.d40d2830.js.map"
+    "main.785bb02e.css.map": "/my-portfolio/static/css/main.785bb02e.css.map",
+    "main.8ed77e17.js.map": "/my-portfolio/static/js/main.8ed77e17.js.map"
   },
   "entrypoints": [
-    "static/css/main.db68eb08.css",
-    "static/js/main.d40d2830.js"
+    "static/css/main.785bb02e.css",
+    "static/js/main.8ed77e17.js"
   ]
 }
