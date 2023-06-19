@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.deb1cfaa.css",
-    "main.js": "/my-portfolio/static/js/main.9cc611ce.js",
+    "main.css": "/my-portfolio/static/css/main.41e915ff.css",
+    "main.js": "/my-portfolio/static/js/main.cbd16bb4.js",
     "static/media/sigma-male.mp4": "/my-portfolio/static/media/sigma-male.b45fb361f824b11c069d.mp4",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
@@ -36,7 +36,7 @@
     "index.html": "/my-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.deb1cfaa.css",
-    "static/js/main.9cc611ce.js"
+    "static/css/main.41e915ff.css",
+    "static/js/main.cbd16bb4.js"
   ]
 }
