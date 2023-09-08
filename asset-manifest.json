@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a4393755.css",
-    "main.js": "/my-portfolio/static/js/main.c0370aaf.js",
+    "main.css": "/my-portfolio/static/css/main.89f2d74f.css",
+    "main.js": "/my-portfolio/static/js/main.18767cc1.js",
     "static/media/bazarge.png": "/my-portfolio/static/media/bazarge.250aa58f06d291c560de.png",
     "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
     "static/media/comm.png": "/my-portfolio/static/media/comm.598b27142c1c82921495.png",
+    "static/media/Rubik-VariableFont_wght.ttf": "/my-portfolio/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/food-info.png": "/my-portfolio/static/media/food-info.d9037cb599b10386ece2.png",
     "static/media/weather-app.png": "/my-portfolio/static/media/weather-app.a1031dfdf9e5684c0c28.png",
     "static/media/big-ben.jpg": "/my-portfolio/static/media/big-ben.ed263795ab1cf232bbd6.jpg",
@@ -32,7 +33,7 @@
     "index.html": "/my-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.a4393755.css",
-    "static/js/main.c0370aaf.js"
+    "static/css/main.89f2d74f.css",
+    "static/js/main.18767cc1.js"
   ]
 }
