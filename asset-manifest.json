@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.89f2d74f.css",
-    "main.js": "/my-portfolio/static/js/main.18767cc1.js",
+    "main.css": "/my-portfolio/static/css/main.c135d1a8.css",
+    "main.js": "/my-portfolio/static/js/main.52ff64ae.js",
     "static/media/bazarge.png": "/my-portfolio/static/media/bazarge.250aa58f06d291c560de.png",
-    "static/media/saba.jpg": "/my-portfolio/static/media/saba.783ece2981363387ebb8.jpg",
+    "static/media/my-img.webp": "/my-portfolio/static/media/my-img.a98c24aa8434071b731c.webp",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
     "static/media/comm.png": "/my-portfolio/static/media/comm.598b27142c1c82921495.png",
     "static/media/Rubik-VariableFont_wght.ttf": "/my-portfolio/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
@@ -14,6 +14,7 @@
     "static/media/mixkit-mouse-hard-clicking-1111.wav": "/my-portfolio/static/media/mixkit-mouse-hard-clicking-1111.cf5d3cf0bc7bbb944df5.wav",
     "static/media/mixkit-on-or-off-light-switch-tap-2585.wav": "/my-portfolio/static/media/mixkit-on-or-off-light-switch-tap-2585.1b36d2edfd59606dc2a2.wav",
     "static/media/react-native.png": "/my-portfolio/static/media/react-native.07d31086afe9ce0233a9.png",
+    "static/media/mongo.png": "/my-portfolio/static/media/mongo.7aa508dd4faedc16fd28.png",
     "static/media/mixkit-single-classic-click-1116.wav": "/my-portfolio/static/media/mixkit-single-classic-click-1116.fcd19091655d291a2eef.wav",
     "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.a09998ec0b2580179e9a.png",
     "static/media/tbilisi-night-1.png": "/my-portfolio/static/media/tbilisi-night-1.a9a479a7f439895da53e.png",
@@ -26,14 +27,16 @@
     "static/media/typescript.png": "/my-portfolio/static/media/typescript.8e08c2165d60d7ca62a9.png",
     "static/media/andza.jpg": "/my-portfolio/static/media/andza.b3459d25d1b9ecd42fb9.jpg",
     "static/media/bootstrap.png": "/my-portfolio/static/media/bootstrap.fbc3329fbe250717720f.png",
+    "static/media/rest.png": "/my-portfolio/static/media/rest.32293c0e671c5b6ff54a.png",
     "static/media/react.png": "/my-portfolio/static/media/react.0d78c01c39131dcca0b2.png",
     "static/media/html-css.png": "/my-portfolio/static/media/html-css.5fa52f1a37aa55d53ccb.png",
     "static/media/mysql.png": "/my-portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
+    "static/media/express.png": "/my-portfolio/static/media/express.9b344d7469dbbdc76754.png",
     "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
     "index.html": "/my-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.89f2d74f.css",
-    "static/js/main.18767cc1.js"
+    "static/css/main.c135d1a8.css",
+    "static/js/main.52ff64ae.js"
   ]
 }
