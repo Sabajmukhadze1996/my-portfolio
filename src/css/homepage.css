@@ -1,0 +1,254 @@
+#home-page-welcome-text-logo {
+  animation: zoom-in-out 1s ease;
+  transform-origin: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.main-homepage-container {
+  padding-bottom: 8rem !important;
+}
+
+.person-logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+.react-logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+#react-logo {
+  animation: rotate 17s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* new */
+
+.frameworks-container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 910px) {
+  .frameworks-container {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 695px) {
+  .frameworks-container {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 496px) {
+  .frameworks-container {
+    gap: 1.5rem;
+  }
+}
+
+/* new */
+
+.line-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7rem;
+}
+
+.line {
+  box-shadow: 0px 0px 0px 0.2px seashell;
+  height: 1.8rem;
+  animation-name: line-line;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes line-line {
+  0% {
+    transform: translateY(0.6rem);
+  }
+  50% {
+    transform: translateY(0rem);
+  }
+  100% {
+    transform: translateY(0.6rem);
+  }
+}
+
+.homepage-main-card-div {
+  display: flex;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+  column-gap: 5rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+  .homepage-main-card-div {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1257px) {
+  .homepage-main-card-div {
+    max-width: 1000px;
+    padding-inline: 3rem;
+    padding-left: 4rem;
+    column-gap: 10rem;
+  }
+  .homepage-main-card-div p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 826px) {
+  .homepage-main-card-div {
+    column-gap: 5rem;
+  }
+}
+
+.homepage-main-card-div p {
+  font-size: 1.55rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background: linear-gradient(to right, #b2deff, #fcf4f4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.homepage-main-card-div img {
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  filter: brightness(90%);
+  box-shadow: 0px 0px 2px #fff;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+@media (max-width: 784px) {
+  .homepage-main-card-div {
+    flex-direction: column;
+    padding-inline: 0.9rem;
+  }
+  .homepage-main-card-div p {
+    margin-top: 2.3rem;
+    width: 100% !important;
+    font-size: 1.47rem;
+    text-align: center !important;
+    padding-inline: 10px;
+  }
+}
+
+.contact-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.6rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.contact-btn-div-for {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 0 1rem !important;
+}
+
+.contact-btn-div-for .contact-btn {
+  letter-spacing: 1.6px;
+  color: #fff !important;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  font-size: 1rem;
+  white-space: nowrap;
+  background-color: transparent !important;
+  border-radius: 1px !important;
+  outline: none !important;
+  box-shadow: 0px 0px 2px rgb(187, 187, 187) !important;
+  border: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 29rem !important;
+}
+
+.contact-btn-div-for .contact-btn:hover {
+  background-color: rgba(128, 128, 128, 0.192) !important;
+}
+
+@media (max-width: 509px) {
+  .contact-btn-div-for .contact-btn {
+    width: 24rem !important;
+    width: 88vw !important;
+  }
+  .contact-btn-div-for {
+    padding: 0 1rem !important;
+  }
+}
+
+.contact-line-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.7rem;
+}
+
+.contact-line {
+  box-shadow: 0px 0px 0px 0.1px seashell;
+  height: 2.3rem;
+}
+
+.contact-btn-border-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8rem;
+  padding: 0 1rem !important;
+}
+
+.contact-btn-border {
+  box-shadow: 0px 0px 0px 0.1px seashell;
+  max-width: 900px;
+  width: 100%;
+  margin-top: 1rem;
+}
