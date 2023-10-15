@@ -6,6 +6,8 @@
 #my-skills-title {
   animation: zoom-in-out 1s ease;
   transform-origin: center;
+
+ 
 }
 
 @keyframes zoom-in-out {

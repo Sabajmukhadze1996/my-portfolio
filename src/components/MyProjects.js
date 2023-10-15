@@ -55,6 +55,7 @@ const MyProjects = () => {
         </h1>
 
         <div className="full-stack-projects-container">
+          <Fade left>
           <div
             className="card"
             id="new-project-container"
@@ -113,7 +114,9 @@ const MyProjects = () => {
               </div>
             </a>
           </div>
+          </Fade>
 
+       <Fade bottom>
           <div
             className="card"
             id="new-project-container"
@@ -169,6 +172,10 @@ const MyProjects = () => {
             </a>
           </div>
 
+          </Fade>
+
+          <Fade right>
+
           <div
             className="card"
             id="new-project-container"
@@ -222,6 +229,7 @@ const MyProjects = () => {
               </div>
             </a>
           </div>
+        </Fade>
         </div>
 
         <h1

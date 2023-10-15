@@ -91,6 +91,71 @@
   animation-iteration-count: infinite;
 }
 
+.interestedInContainer {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1.5rem;
+  padding-top: 1.2rem;
+}
+
+@media(max-width: 1401px) {
+  .interestedInContainer {
+
+  padding-inline: 4.5rem;
+  }
+}
+
+
+@media(max-width: 1257px) {
+  .interestedInContainer {
+
+  padding-inline: 4rem;
+  }
+}
+
+@media(max-width: 878px) {
+  .interestedInContainer {
+    padding-inline: 2.5rem;
+
+ 
+  }
+
+  .interestedInContainer h1 {
+    padding-inline: 2rem !important;
+    font-size: 2.2rem !important;
+  }
+}
+
+@media(max-width: 690px) {
+  .interestedInContainer {
+    /* padding-inline: 2.5rem; */
+
+  flex-direction: column;
+  gap: 2rem;
+  }
+
+  .interestedInContainer h1 {
+    padding-inline: 2rem !important;
+    font-size: 2.2rem !important;
+  }
+}
+
+.interestedInContainer h1 {
+  background: linear-gradient(to right, #b2deff, #fcf4f4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1.4px;
+  width: 400px;
+  max-width: 100%;
+  font-weight: 700;
+}
+
 @keyframes line-line {
   0% {
     transform: translateY(0.6rem);
@@ -168,7 +233,7 @@
 @media (max-width: 784px) {
   .homepage-main-card-div {
     flex-direction: column;
-    padding-inline: 0.9rem;
+    padding-inline: 4rem;
   }
   .homepage-main-card-div p {
     margin-top: 2.3rem;
@@ -178,6 +243,21 @@
     padding-inline: 10px;
   }
 }
+
+@media (max-width: 590px) {
+  .homepage-main-card-div {
+    flex-direction: column;
+    padding-inline: 1.5rem;
+  }
+  .homepage-main-card-div p {
+    margin-top: 2.3rem;
+    width: 100% !important;
+    font-size: 1.47rem;
+    text-align: center !important;
+    padding-inline: 10px;
+  }
+}
+
 
 .contact-btn-div {
   display: flex;
@@ -224,6 +304,20 @@
   .contact-btn-div-for {
     padding: 0 1rem !important;
   }
+}
+
+@media(max-width: 466px) {
+  .interestedInContainer {
+        padding-inline: 0rem !important;
+  }
+
+ 
+}
+@media(max-width: 466px) {
+  .homepage-main-card-div p {
+    padding-inline: 0rem !important;
+  }
+ 
 }
 
 .contact-line-div {

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Translation } from "./TranslationContextProvider";
 import "../css/homepage.css";
-import myImg from "../images/my-img.webp";
+import tbilisiImg from "../images/tbilisi.jpg";
 import { FaReact } from "react-icons/fa";
 import { GrNode } from "react-icons/gr";
 import { IoMdHand } from "react-icons/io";
@@ -39,7 +39,9 @@ const HomePage = () => {
       </div>
 
       <div className="homepage-main-card-div">
-        <img src={myImg} alt="my-img" />
+        <Fade top duration={5000}>
+          <img src={tbilisiImg} alt="my-img" />
+        </Fade>
 
         <Fade bottom>
           <p>
@@ -51,7 +53,16 @@ const HomePage = () => {
       <div className="contact-line-div">
         <div className="contact-line"></div>
       </div>
-      <ContactModal />
+
+      <div className="interestedInContainer">
+        <Fade left>
+          <h1>Interested in working together ?</h1>
+        </Fade>
+        <Fade right>
+          <ContactModal />
+        </Fade>
+      </div>
+
       <div className="contact-btn-border-div">
         <span className="contact-btn-border"></span>
       </div>

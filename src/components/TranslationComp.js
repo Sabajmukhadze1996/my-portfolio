@@ -3,7 +3,7 @@ import { Translation } from "./TranslationContextProvider";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import CircularProgress from "@mui/material/CircularProgress";
-import sound from "../mp-3/mixkit-mouse-hard-clicking-1111.wav";
+// import sound from "../mp-3/mixkit-mouse-hard-clicking-1111.wav";
 
 import geoFlag from "../images/ge.jpg";
 import engFlag from "../images/eng.png";
@@ -37,12 +37,12 @@ const TranslationComp = () => {
 
   const [value, setValue] = useState(0);
 
-  function play() {
-    new Audio(sound).play();
-  }
+  // function play() {
+  //   new Audio(sound).play();
+  // }
 
   useEffect(() => {
-    play();
+    // play();
   }, [value]);
 
   return (

@@ -2,13 +2,14 @@ import React, { useContext } from "react";
 import { Translation } from "./TranslationContextProvider";
 import "../css/aboutme.css";
 import { BsPersonBoundingBox } from "react-icons/bs";
-import tbilisiImg from "../images/tbilisi-night-1.png";
+import tbilisiImg from "../images/coding.jpg";
 import javascript_cert from "../images/javascript-cert.png";
 import responsive_design from "../images/responsive-design.png";
 import GTU_IMG from "../images/gpi.png";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import { BsBook } from "react-icons/bs";
 import Fade from "react-reveal";
+
 
 const AboutMe = () => {
   const { content } = useContext(Translation);
@@ -44,14 +45,17 @@ const AboutMe = () => {
         </div>
 
         <div className="tbilisi-img-container px-2">
+          <Fade top>
           <img
             src={tbilisiImg}
             loading="lazy"
             decoding="async"
             alt="tbilisi-at-night"
           />
+          </Fade>
         </div>
         <div style={{ paddingInline: "1rem" }}>
+          <Fade left>
           <div className="about-me-text">
             <p>
               <span id="d">D</span>uring the pandemic of coronavirus, almost all
@@ -69,10 +73,11 @@ const AboutMe = () => {
               and self-improvement.
             </p>
           </div>
+            </Fade>
         </div>
 
 
-        <div style={{ paddingInline: "1rem" }}>
+        {/* <div style={{ paddingInline: "1rem" }}>
           <div className="about-me-text">
             <p>
               <span id="d">W</span>ith this belief in mind, I decided to embark
@@ -88,15 +93,17 @@ const AboutMe = () => {
               fulfilling career in programming.
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div style={{ paddingInline: "1rem" }}>
           <div className=" my-5">
+            <Fade right>
             <div className="about-me-text">
               <p>
                 <span id="d">{content.i}</span> {content.start_learning_text}
               </p>
             </div>
+            </Fade>
           </div>
         </div>
 
@@ -112,6 +119,7 @@ const AboutMe = () => {
             target="_blank"
             rel="noreferrer"
           >
+            <Fade top>
             <img
               loading="lazy"
               decoding="async"
@@ -119,12 +127,14 @@ const AboutMe = () => {
               className="cert-img"
               alt="javascript-algorithms"
             />
+          </Fade>
           </a>
           <a
             href="https://www.freecodecamp.org/certification/fcc6669bd89-570b-476d-9d21-4cd5ea0aef2b/responsive-web-design"
             target="_blank"
             rel="noreferrer"
           >
+            <Fade bottom>
             <img
               loading="lazy"
               decoding="async"
@@ -132,6 +142,7 @@ const AboutMe = () => {
               className="cert-img"
               alt="responsive-design"
             />
+            </Fade>
           </a>
         </div>
         <div className="education-title px-2">
@@ -150,6 +161,8 @@ const AboutMe = () => {
           <div className="education-outer-div">
             <div className="education-div">
               <div className="card">
+                <Fade top>
+
                 <img
                   loading="lazy"
                   decoding="async"
@@ -157,6 +170,7 @@ const AboutMe = () => {
                   className="gtu-img-about-me card-img-top"
                   alt="Georgina Technical University"
                 />
+                </Fade>
               </div>
             </div>
           </div>

@@ -4,9 +4,9 @@ import { NavLink, useNavigate } from "react-router-dom";
 import "../css/navbar.css";
 import { AiOutlineBars } from "react-icons/ai";
 import { MdClear } from "react-icons/md";
-import TranslationComp from "./TranslationComp";
+// import TranslationComp from "./TranslationComp";
 import andzaLogo from "../images/andza.jpg";
-import bigBenLogo from "../images/big-ben.jpg";
+// import bigBenLogo from "../images/big-ben.jpg";
 import sound from "../mp-3/mixkit-single-classic-click-1116.wav";
 
 const Navbar = () => {
@@ -57,9 +57,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top ${
-        scrolling ? "bg-black" : "bg-transparent"
-      }`}
+      className={`navbar navbar-expand-lg fixed-top`}
+      style={{background: scrolling ? "#0f1b3aa6" : "transparent"}}
     >
       <div className="container-fluid">
         <div style={{ display: "flex", alignItems: "center" }}>
@@ -74,7 +73,7 @@ const Navbar = () => {
           >
             <img id="my-logo" src={andzaLogo} alt="My Logo" />
           </NavLink>
-          <h1 id="self-title">Saba Jmukhadze..</h1>
+          <h1 id="self-title">Saba's Portfolio</h1>
         </div>
         <button
           onClick={changeBarSettings}
@@ -120,7 +119,8 @@ const Navbar = () => {
               data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse.show"
             >
-              Coding Career
+              {/* Coding Career */}
+              How It All Began
             </NavLink>
             <NavLink
               to="/my-skills"
@@ -134,7 +134,8 @@ const Navbar = () => {
               data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse.show"
             >
-              {content.my_skills}
+              {/* {content.my_skills} */}
+              Tech Skills
             </NavLink>
             <NavLink
               to="/my-projects"
@@ -148,7 +149,8 @@ const Navbar = () => {
               data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse.show"
             >
-              {content.projects}
+              {/* {content.projects} */}
+              Projects & Experience
             </NavLink>
           </div>
         </div>

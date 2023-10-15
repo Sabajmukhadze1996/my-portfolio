@@ -68,13 +68,14 @@ const ContactModal = () => {
       <div className="contact-btn-div-for">
         <button
           className="contact-btn"
+          id="contactBtn"
           onClick={() => {
             handleClick();
             setOpenContactModal(true);
           }}
           type="button"
         >
-          <MdContactPhone size={25} fill="orange" />
+          <MdContactPhone size={20} fill="orange" style={{position: "relative", top: "1.6px", width: "50px"}}/>
           {content.contact}
         </button>
       </div>

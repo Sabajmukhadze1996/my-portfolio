@@ -13,6 +13,7 @@ mp-3
 images
 # production
 /build
+
 # misc
 .DS_Store
 .env.local

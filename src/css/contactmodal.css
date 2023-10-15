@@ -3,6 +3,12 @@
   justify-content: center !important;
 }
 
+.contact-btn-div  {
+ max-width: 400px;
+ width: 100%;
+
+}
+
 
 
 .contact-btn-div .modal-content {
@@ -18,16 +24,22 @@
 }
 
 .contact-btn-div .contact-btn {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  /* width: 500px !important; */
+  width: 100% !important;
+  padding-inline: 2rem;
+  font-weight: 600;
 }
 
-@media (max-width: 401px) {
+
+
+/* @media (max-width: 401px) {
   .contact-btn-div .contact-btn {
     font-size: 0.9rem;
     width: 100%;
     padding-inline: 0.4rem;
   }
-}
+} */
 
 @media (max-width: 425px) {
   .contact-btn-div .modal-content {
@@ -90,6 +102,7 @@
 .contact-btn-div-for {
   max-width: 650px !important;
   width: 100% !important;
+
 }
 
 .contact-modal-main-div {

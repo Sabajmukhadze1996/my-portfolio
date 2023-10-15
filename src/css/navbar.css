@@ -10,6 +10,8 @@
   padding-right: 0.7rem;
   outline: none !important;
   backdrop-filter: blur(9px);
+  transition: 0.4s ease;
+  /* background-color: #0f1b3aa6; */
 }
 
 .navbar .container-fluid {
@@ -23,8 +25,8 @@
 }
 
 .navbar #my-logo {
-  width: 63px ;
-  height: 63px ;
+  width: 63px;
+  height: 63px;
   box-shadow: 0px 0px 0px 1.7px rgb(87, 132, 255);
   padding: 6.5px;
   border-radius: 100% !important;
@@ -33,11 +35,10 @@
 #self-title {
   font-family: selfFont !important;
   color: #f8f8f8;
-  font-size: 1.51rem !important;
+  font-size: 1.45rem !important;
   position: relative;
   top: 14px;
   left: -7px;
-
 }
 
 
