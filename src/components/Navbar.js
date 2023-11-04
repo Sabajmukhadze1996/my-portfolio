@@ -9,6 +9,7 @@ import andzaLogo from "../images/andza.jpg";
 // import bigBenLogo from "../images/big-ben.jpg";
 import sound from "../mp-3/mixkit-single-classic-click-1116.wav";
 
+
 const Navbar = () => {
   const [bar, setBar] = useState(false);
   const [value, setValue] = useState(0);
