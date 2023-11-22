@@ -106,13 +106,14 @@ const Navbar = () => {
               data-bs-target=".navbar-collapse.show"
               className={activeLink}
             >
-            About Me
+            {/* About Me */}
+            Home
             </NavLink>
             <NavLink
-              to="/coding-career"
+              to="/work-experience"
               onClick={() => {
                 scrollTop();
-                navigate("/coding-career");
+                navigate("/work-experience");
                 setBar(false);
                 setValue(value + 1);
                 setActiveLink("");
@@ -120,9 +121,26 @@ const Navbar = () => {
               data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse.show"
             >
-              {/* Coding Career */}
-              How It All Began
+             Work Experience
             </NavLink>
+
+            <NavLink
+              to="/personal-projects"
+              onClick={() => {
+                scrollTop();
+                navigate("/personal-projects");
+                setBar(false);
+                setValue(value + 1);
+                setActiveLink("");
+              }}
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+            >
+             Personal Projects
+            </NavLink>
+
+
+
             <NavLink
               to="/my-skills"
               onClick={() => {
@@ -135,24 +153,9 @@ const Navbar = () => {
               data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse.show"
             >
-              {/* {content.my_skills} */}
               Tech Skills
             </NavLink>
-            <NavLink
-              to="/my-projects"
-              onClick={() => {
-                scrollTop();
-                navigate("/my-projects");
-                setBar(false);
-                setValue(value + 1);
-                setActiveLink("");
-              }}
-              data-bs-toggle="collapse"
-              data-bs-target=".navbar-collapse.show"
-            >
-              {/* {content.projects} */}
-              Projects & Experience
-            </NavLink>
+        
           </div>
         </div>
       </div>

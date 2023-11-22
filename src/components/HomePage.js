@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import { Translation } from "./TranslationContextProvider";
 import "../css/homepage.css";
-import tbilisiImg from "../images/tbilisi.jpg";
+import sabaImg from "../images/saba.jpg";
 import { FaReact } from "react-icons/fa";
 import { GrNode } from "react-icons/gr";
-import { IoMdHand } from "react-icons/io";
+import { FaLaptop } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import ContactModal from "./ContactModal";
@@ -39,13 +39,13 @@ const HomePage = () => {
       </div>
 
       <div className="homepage-main-card-div">
-        <Fade top duration={5000}>
-          <img src={tbilisiImg} alt="my-img" />
+        <Fade>
+          <img src={sabaImg} alt="my-img" />
         </Fade>
 
         <Fade bottom>
           <p>
-            <IoMdHand id="home-page-welcome-text-logo" fill="orange" />
+            <FaLaptop id="home-page-welcome-text-logo" fill="orange" />
             {content.welcome_text_desc}
           </p>
         </Fade>

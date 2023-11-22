@@ -16,6 +16,8 @@ import trader_ticket from "../images/trade-ticket.png";
 import eCommerce from "../images/comm.png";
 import bazarGe from "../images/bazarge.png";
 import yourselfge from "../images/yourself.png";
+import lingwing from "../images/lingwing.png";
+import bds from "../images/bds.png";
 import Fade from "react-reveal";
 
 const MyProjects = () => {
@@ -44,207 +46,84 @@ const MyProjects = () => {
         <div className="projects-line-div">
           <div className="projects-line"></div>
         </div>
-        {/* <div className="projects-description-div">
-          <p>
-            <span id="projects-created-title">{content.created_title}.</span>
-          </p>
-        </div> */}
-
+      
         <h1 className="full-stack-title">
-          Full-Stack Projects (React.js & Next.js & Node.js)
+          Work Experience
         </h1>
 
-        <div className="full-stack-projects-container">
-          <Fade left>
-          <div
-            className="card"
-            id="new-project-container"
-            style={{
-              maxWidth: "40rem",
-              backgroundColor: "transparent",
-              margin: "0 auto",
-              marginTop: "3rem",
-            }}
-          >
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://yourselfge.vercel.app/"
-            >
-              <img
-                loading="lazy"
-                decoding="async"
-                src={yourselfge}
-                className="card-img-top "
-                alt="e-commerce"
-              />
-              <div className="full-stack-card-body">
-                <h5
-                  className="card-title"
-                  style={{ color: "#fff", letterSpacing: "0.8px" }}
-                >
-                  {/* {content.my_new_project_title} */}
-                  Yourself.ge
-                </h5>
-                <p
-                  className="card-text"
-                  style={{
-                    color: "#fff",
-                    letterSpacing: "0.8px",
-                    lineHeight: "1.8rem",
-                  }}
-                >
-                  When I embarked on the development of an e-commerce website,
-                  my primary objective was to significantly improve the overall
-                  user experience by streamlining website navigation and
-                  enriching the features available in product descriptions and
-                  category organization.
-                </p>
-                <button
-                  id="new-project-btn"
-                  className="mt-2"
-                  style={{
-                    width: "200px",
-                    color: "#fff",
-                    borderRadius: "5px",
-                  }}
-                >
-                  {content.view_project}
-                </button>
-              </div>
-            </a>
-          </div>
-          </Fade>
 
-       <Fade bottom>
-          <div
-            className="card"
-            id="new-project-container"
-            style={{
-              maxWidth: "40rem",
-              backgroundColor: "transparent",
-              margin: "0 auto",
-              marginTop: "3rem",
-            }}
-          >
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://bazarge.vercel.app/"
-            >
-              <img
-                loading="lazy"
-                decoding="async"
-                src={bazarGe}
-                className="card-img-top "
-                alt="e-commerce"
-              />
-              <div className="full-stack-card-body">
-                <h5
-                  className="card-title"
-                  style={{ color: "#fff", letterSpacing: "0.8px" }}
-                >
-                  {/* {content.my_new_project_title} */}
-                  Georgian New E-commerce Platform
-                </h5>
-                <p
-                  className="card-text"
-                  style={{
-                    color: "#fff",
-                    letterSpacing: "0.8px",
-                    lineHeight: "1.8rem",
-                  }}
-                >
-                  {content.bazargeDesc}
-                </p>
-                <button
-                  id="new-project-btn"
-                  className="mt-2"
-                  style={{
-                    width: "200px",
-                    color: "#fff",
-                    borderRadius: "5px",
-                  }}
-                >
-                  {content.view_project}
-                </button>
-              </div>
-            </a>
-          </div>
+<div className="expreience-container">
+  
+ <Fade>
+<div className="card experience-card" >
+  <img src={yourselfge} className="card-img-top" alt="..." />
+  <div className="card-body">
+    <div className="card-title"><p>Yourself.ge (startup)</p> <p className="profession">July 2023 - November 2023</p></div>
+    <p className="date">Full-Stack Developer - (React.js, Next.js, Node.js)</p>
+    <ul>
+      <li>Used React-Redux Toolkit library for state management.</li>
+      <li>Implemented Bootstrap and MUI libraries to create a visually engaging and responsive layout.</li>
+      <li>Executed secure JWT authorization on the server-side to fortify against XSS attacks.</li>
+    </ul>
+    <a href="https://yourselfge.vercel.app/" className="btn btn-primary mt-1" target="_blank">View the Project</a>
+  </div>
+</div>
+</Fade> 
 
-          </Fade>
+<Fade>
+<div className="card experience-card" >
+  <img src={lingwing} className="card-img-top" alt="..." />
+  <div className="card-body">
+    <div className="card-title"><p>Lingwing</p> <p className="profession">February 2023 - June 2023</p></div>
+    <p className="date">Front-End Developer - (React.js, Next.js)</p>
+    <ul>
+      <li>Created the Admin page of the website.</li>
+      <li>Utilized React-Query for efficient Front-End data fetching.</li>
+      <li>Mentoring Junior Developers.</li>
+    </ul>
+    <a href="https://lingwing.com/" className="btn btn-primary mt-1" target="_blank">View the Project</a>
+  </div>
+</div>
+</Fade>
 
-          <Fade right>
 
-          <div
-            className="card"
-            id="new-project-container"
-            style={{
-              maxWidth: "40rem",
-              backgroundColor: "transparent",
-              margin: "0 auto",
-              marginTop: "3rem",
-            }}
-          >
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://sabajmukhadze1996.github.io/e-commerce"
-            >
-              <img
-                loading="lazy"
-                decoding="async"
-                src={eCommerce}
-                className="card-img-top "
-                alt="e-commerce"
-              />
-              <div className="full-stack-card-body">
-                <h5
-                  className="card-title"
-                  style={{ color: "#fff", letterSpacing: "0.8px" }}
-                >
-                  {content.my_new_project_title}
-                </h5>
-                <p
-                  className="card-text"
-                  style={{
-                    color: "#fff",
-                    letterSpacing: "0.8px",
-                    lineHeight: "1.8rem",
-                  }}
-                >
-                  {content.my_new_project_text}
-                </p>
-                <button
-                  id="new-project-btn"
-                  className="mt-2"
-                  style={{
-                    width: "200px",
-                    color: "#fff",
-                    borderRadius: "5px",
-                  }}
-                >
-                  {content.view_project}
-                </button>
-              </div>
-            </a>
-          </div>
-        </Fade>
-        </div>
+<Fade>
+<div className="card experience-card" >
+  <img src={bds} className="card-img-top" alt="..." />
+  <div className="card-body">
+    <div className="card-title"><p className="bds-title">Business Development Solutions</p> <p className="profession">July 2022 - January 2023 </p></div>
+    <p className="date">Front-End Developer - (React.js, React-Native)</p>
+    <ul>
+      <li>Worked on the development of an e-commerce website and application.</li>
+      <li>Incorporated lightweight libraries to enhance application speed by 25%.</li>
+    </ul>
+    <a href="https://voovly.ge/" className="btn btn-primary mt-1" target="_blank">View the Project</a>
+  </div>
+</div>
+</Fade>
 
-        <h1
+
+
+
+</div>
+
+        
+
+  
+
+        {/* <h1
           style={{ marginTop: "1rem", paddingBottom: "2rem" }}
           className="full-stack-title"
         >
         Below are my projects from when I was <br /> a junior developer
-        </h1>
+        </h1> */}
 
 
-        <div className="d-flex justify-content-center align-items-center pt-2">
+        {/* <div className="d-flex justify-content-center align-items-center pt-2">
           <BsFillArrowDownCircleFill color="#fff5ee" size={33} />
-        </div>
+        </div> */}
 
-        <div className="row row-cols-1 row-cols-md-3 g-3 skills-cards-main-container">
+        {/* <div className="row row-cols-1 row-cols-md-3 g-3 skills-cards-main-container">
           <div className="col">
             <a
               href="https://sabajmukhadze1996.github.io/trade-ticket/"
@@ -407,10 +286,193 @@ const MyProjects = () => {
               </div>
             </a>
           </div>
-        </div>
+        </div> */}
       </Fade>
     </div>
   );
 };
 
 export default MyProjects;
+
+
+
+
+
+
+
+
+{/* <div className="full-stack-projects-container">
+<Fade left>
+<div
+  className="card"
+  id="new-project-container"
+  style={{
+    maxWidth: "40rem",
+    backgroundColor: "transparent",
+    margin: "0 auto",
+    marginTop: "3rem",
+  }}
+>
+  <a
+    rel="noreferrer"
+    target="_blank"
+    href="https://yourselfge.vercel.app/"
+  >
+    <img
+      loading="lazy"
+      decoding="async"
+      src={yourselfge}
+      className="card-img-top "
+      alt="e-commerce"
+    />
+    <div className="full-stack-card-body">
+      <h5
+        className="card-title"
+        style={{ color: "#fff", letterSpacing: "0.8px" }}
+      >
+        Yourself.ge
+      </h5>
+      <p
+        className="card-text"
+        style={{
+          color: "#fff",
+          letterSpacing: "0.8px",
+          lineHeight: "1.8rem",
+        }}
+      >
+        When I embarked on the development of an e-commerce website,
+        my primary objective was to significantly improve the overall
+        user experience by streamlining website navigation and
+        enriching the features available in product descriptions and
+        category organization.
+      </p>
+      <button
+        id="new-project-btn"
+        className="mt-2"
+        style={{
+          width: "200px",
+          color: "#fff",
+          borderRadius: "5px",
+        }}
+      >
+        {content.view_project}
+      </button>
+    </div>
+  </a>
+</div>
+</Fade>
+
+<Fade bottom>
+<div
+  className="card"
+  id="new-project-container"
+  style={{
+    maxWidth: "40rem",
+    backgroundColor: "transparent",
+    margin: "0 auto",
+    marginTop: "3rem",
+  }}
+>
+  <a
+    rel="noreferrer"
+    target="_blank"
+    href="https://bazarge.vercel.app/"
+  >
+    <img
+      loading="lazy"
+      decoding="async"
+      src={bazarGe}
+      className="card-img-top "
+      alt="e-commerce"
+    />
+    <div className="full-stack-card-body">
+      <h5
+        className="card-title"
+        style={{ color: "#fff", letterSpacing: "0.8px" }}
+      >
+        Georgian New E-commerce Platform
+      </h5>
+      <p
+        className="card-text"
+        style={{
+          color: "#fff",
+          letterSpacing: "0.8px",
+          lineHeight: "1.8rem",
+        }}
+      >
+        {content.bazargeDesc}
+      </p>
+      <button
+        id="new-project-btn"
+        className="mt-2"
+        style={{
+          width: "200px",
+          color: "#fff",
+          borderRadius: "5px",
+        }}
+      >
+        {content.view_project}
+      </button>
+    </div>
+  </a>
+</div>
+
+</Fade>
+
+<Fade right>
+
+<div
+  className="card"
+  id="new-project-container"
+  style={{
+    maxWidth: "40rem",
+    backgroundColor: "transparent",
+    margin: "0 auto",
+    marginTop: "3rem",
+  }}
+>
+  <a
+    rel="noreferrer"
+    target="_blank"
+    href="https://sabajmukhadze1996.github.io/e-commerce"
+  >
+    <img
+      loading="lazy"
+      decoding="async"
+      src={eCommerce}
+      className="card-img-top "
+      alt="e-commerce"
+    />
+    <div className="full-stack-card-body">
+      <h5
+        className="card-title"
+        style={{ color: "#fff", letterSpacing: "0.8px" }}
+      >
+        {content.my_new_project_title}
+      </h5>
+      <p
+        className="card-text"
+        style={{
+          color: "#fff",
+          letterSpacing: "0.8px",
+          lineHeight: "1.8rem",
+        }}
+      >
+        {content.my_new_project_text}
+      </p>
+      <button
+        id="new-project-btn"
+        className="mt-2"
+        style={{
+          width: "200px",
+          color: "#fff",
+          borderRadius: "5px",
+        }}
+      >
+        {content.view_project}
+      </button>
+    </div>
+  </a>
+</div>
+</Fade>
+</div> */}
