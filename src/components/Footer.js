@@ -29,11 +29,8 @@ const Footer = () => {
         <span>{content.all_rights_reserved}</span>
       </div>
       <div  className="copyright-div d-flex justify-content-center">
-        <span>Copyright &copy; 2022</span>
+        <span>Copyright &copy; 2023</span>
       </div>
-      {/* <div style={{ maxWidth: "800px", width: "100%", margin: "20px auto", paddingInline: "0.7rem" }}>
-        <span className="small">{content.gta_sanandreas_text}</span>
-      </div> */}
     </footer>
   );
 };

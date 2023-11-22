@@ -1,27 +1,16 @@
-import React, { useContext } from "react";
-import { Translation } from "./TranslationContextProvider";
+import React from "react";
 import "../css/myprojects.css";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { GrNode } from "react-icons/gr";
-import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
-import solar_system from "../images/solar-system.png";
-import pet_care from "../images/pet-care.png";
-import food_info from "../images/food-info.png";
-import weather_app from "../images/weather-app.png";
-import search_movie from "../images/movie-app.png";
-import trader_ticket from "../images/trade-ticket.png";
-import eCommerce from "../images/comm.png";
-import bazarGe from "../images/bazarge.png";
 import yourselfge from "../images/yourself.png";
 import lingwing from "../images/lingwing.png";
 import bds from "../images/bds.png";
 import Fade from "react-reveal";
 
 const MyProjects = () => {
-  const { content } = useContext(Translation);
 
   return (
     <div className="my-projects-main-container">
