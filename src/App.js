@@ -24,6 +24,7 @@ const App = () => {
     }, 1000);
   }, []);
 
+  
   return (
     <>
       {loading ? (
