@@ -4,10 +4,9 @@ import { NavLink, useNavigate } from "react-router-dom";
 import "../css/navbar.css";
 import { AiOutlineBars } from "react-icons/ai";
 import { MdClear } from "react-icons/md";
-// import TranslationComp from "./TranslationComp";
 import andzaLogo from "../images/andza.jpg";
-// import bigBenLogo from "../images/big-ben.jpg";
 import sound from "../mp-3/mixkit-single-classic-click-1116.wav";
+
 
 
 const Navbar = () => {
