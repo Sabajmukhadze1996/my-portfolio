@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.28d3ab4c.css",
-    "main.js": "/my-portfolio/static/js/main.c14e5142.js",
+    "main.css": "/my-portfolio/static/css/main.be6d7bab.css",
+    "main.js": "/my-portfolio/static/js/main.76a121dd.js",
     "static/media/bazarge.png": "/my-portfolio/static/media/bazarge.250aa58f06d291c560de.png",
     "static/media/yourself.png": "/my-portfolio/static/media/yourself.00c279f37c14e7a19914.png",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
@@ -11,8 +11,8 @@
     "static/media/weather.png": "/my-portfolio/static/media/weather.648732738bd4476e284b.png",
     "static/media/mixkit-on-or-off-light-switch-tap-2585.wav": "/my-portfolio/static/media/mixkit-on-or-off-light-switch-tap-2585.1b36d2edfd59606dc2a2.wav",
     "static/media/react-native.png": "/my-portfolio/static/media/react-native.07d31086afe9ce0233a9.png",
+    "static/media/saba.jpg": "/my-portfolio/static/media/saba.6689828e2104211a9f7d.jpg",
     "static/media/mongo.png": "/my-portfolio/static/media/mongo.7aa508dd4faedc16fd28.png",
-    "static/media/saba.jpg": "/my-portfolio/static/media/saba.88ab365e16a9ff0f1a40.jpg",
     "static/media/mixkit-single-classic-click-1116.wav": "/my-portfolio/static/media/mixkit-single-classic-click-1116.fcd19091655d291a2eef.wav",
     "static/media/sass.png": "/my-portfolio/static/media/sass.91714f748188b46f4e33.png",
     "static/media/git.png": "/my-portfolio/static/media/git.bad2b1118eff814bb319.png",
@@ -25,10 +25,12 @@
     "static/media/mysql.png": "/my-portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/express.png": "/my-portfolio/static/media/express.9b344d7469dbbdc76754.png",
     "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
-    "index.html": "/my-portfolio/index.html"
+    "index.html": "/my-portfolio/index.html",
+    "main.be6d7bab.css.map": "/my-portfolio/static/css/main.be6d7bab.css.map",
+    "main.76a121dd.js.map": "/my-portfolio/static/js/main.76a121dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.28d3ab4c.css",
-    "static/js/main.c14e5142.js"
+    "static/css/main.be6d7bab.css",
+    "static/js/main.76a121dd.js"
   ]
 }
