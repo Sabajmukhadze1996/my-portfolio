@@ -8,6 +8,7 @@ import { GrNode } from "react-icons/gr";
 import yourselfge from "../images/yourself.png";
 import lingwing from "../images/lingwing.png";
 import bds from "../images/bds.png";
+import dataart from "../images/dataart.jpg";
 import Fade from "react-reveal";
 
 const MyProjects = () => {
@@ -63,8 +64,8 @@ const MyProjects = () => {
 <div className="card experience-card" >
   <img src={lingwing} className="card-img-top" alt="..." />
   <div className="card-body">
-    <div className="card-title"><p>Lingwing</p> <p className="profession">February 2023 - June 2023</p></div>
-    <p className="date">Front-End Developer - (React.js, Next.js)</p>
+    <div className="card-title"><p>Lingwing</p> <p className="profession">March 2023 - June 2023</p></div>
+    <p className="date">Full-Stack Developer - (React.js, Next.js, Node.js)</p>
     <ul>
       <li>Created the Admin page of the website.</li>
       <li>Utilized React-Query for efficient Front-End data fetching.</li>
@@ -80,13 +81,28 @@ const MyProjects = () => {
 <div className="card experience-card" >
   <img src={bds} className="card-img-top" alt="..." />
   <div className="card-body">
-    <div className="card-title"><p className="bds-title">Business Development Solutions</p> <p className="profession">July 2022 - January 2023 </p></div>
+    <div className="card-title"><p className="bds-title">Business Development Solutions</p> <p className="profession">June 2022 - January 2023 </p></div>
     <p className="date">Front-End Developer - (React.js, React-Native)</p>
     <ul>
       <li>Worked on the development of an e-commerce website and application.</li>
       <li>Incorporated lightweight libraries to enhance application speed by 25%.</li>
     </ul>
     <a href="https://voovly.ge/" className="btn btn-primary mt-1" target="_blank">View the Project</a>
+  </div>
+</div>
+</Fade>
+
+
+<Fade>
+<div className="card experience-card" >
+  <img src={dataart} className="card-img-top" alt="..." />
+  <div className="card-body">
+    <div className="card-title"><p className="bds-title">Data Art</p> <p className="profession">May 2021 - April 2022 </p></div>
+    <p className="date">Front-End Developer - (React.js)</p>
+    <ul>
+      <li>Launched React.js UI with Bootstrap and Material UI, crafted reusable components for code stability and enhanced readability.</li>
+    </ul>
+    <a href="https://www.dataart.com/" className="btn btn-primary mt-1" target="_blank">View the Website</a>
   </div>
 </div>
 </Fade>
