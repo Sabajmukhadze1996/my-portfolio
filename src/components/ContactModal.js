@@ -22,7 +22,7 @@ const style = {
   maxWidth: "97%",
   borderRadius: "7px",
   maxHeight: "100vh",
-  backgroundColor: "#100e1cf8",
+  backgroundColor: "#0f0f16f0",
   overflowY: "auto",
   px: 1.6,
   boxShadow: "0px 0px 2px #777",

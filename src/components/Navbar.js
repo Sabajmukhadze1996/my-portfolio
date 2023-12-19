@@ -5,6 +5,7 @@ import "../css/navbar.css";
 import { AiOutlineBars } from "react-icons/ai";
 import { MdClear } from "react-icons/md";
 import andzaLogo from "../images/andza.jpg";
+
 import sound from "../mp-3/mixkit-single-classic-click-1116.wav";
 
 
@@ -58,7 +59,7 @@ const Navbar = () => {
   return (
     <nav
       className={`navbar navbar-expand-lg fixed-top`}
-      style={{background: scrolling ? "#0f1b3aa6" : "transparent"}}
+      style={{background: scrolling ? "#090f1fa6" : "transparent"}}
     >
       <div className="container-fluid">
         <div style={{ display: "flex", alignItems: "center" }}>
@@ -71,9 +72,9 @@ const Navbar = () => {
             to="/"
             className="navbar-brand"
           >
-            <img id="my-logo" src={andzaLogo} alt="My Logo" />
+            {/* <img id="my-logo" src={andzaLogo} alt="My Logo" /> */}
           </NavLink>
-          <h1 id="self-title">Saba's Portfolio</h1>
+          <h1 id="self-title">Saba<span style={{color: "#00ffffc6"}}>'</span>s Portfolio</h1>
         </div>
         <button
           onClick={changeBarSettings}

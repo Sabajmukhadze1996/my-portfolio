@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Translation } from "./TranslationContextProvider";
 import "../css/homepage.css";
 import sabaImg from "../images/saba.jpg";
+import basLogo from "../images/bas.png";
 import { FaReact } from "react-icons/fa";
 import { GrNode } from "react-icons/gr";
 import { FaLaptop } from "react-icons/fa";
@@ -40,13 +41,13 @@ const HomePage = () => {
 
       <div className="homepage-main-card-div">
         <Fade>
-          <img src={sabaImg} alt="my-img" />
+          <img src={basLogo} alt="my-img" />
         </Fade>
 
         <Fade bottom>
           <p>
             <FaLaptop id="home-page-welcome-text-logo" fill="orange" />
-            {content.welcome_text_desc}
+            My name is Saba Jmukhadze. From Tbilisi, Georgia, I am actively involved in Full-Stack Web & Mobile development, specializing in Front-End using React.js and Back-End using Node.js.
           </p>
         </Fade>
       </div>
@@ -56,7 +57,7 @@ const HomePage = () => {
 
       <div className="interestedInContainer">
         <Fade left>
-          <h1>Interested in working together ?</h1>
+          <h1>Interested in Working Together ?</h1>
         </Fade>
         <Fade right>
           <ContactModal />

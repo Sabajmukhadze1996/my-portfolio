@@ -1,3 +1,9 @@
+@font-face {
+  font-family: homeFont;
+  src: url("../Grosball.otf");
+}
+
+
 #home-page-welcome-text-logo {
   animation: zoom-in-out 1s ease;
   transform-origin: center;
@@ -103,6 +109,7 @@
   padding-top: 1.2rem;
 }
 
+
 @media(max-width: 1401px) {
   .interestedInContainer {
 
@@ -146,14 +153,14 @@
 }
 
 .interestedInContainer h1 {
-  background: linear-gradient(to right, #b2deff, #fcf4f4);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 1.4px;
+  letter-spacing: 3.8px;
   width: 400px;
   max-width: 100%;
-  font-weight: 700;
+  font-weight: 800;
+
+
+  font-family: selfFont;
+  color: whitesmoke !important;
 }
 
 @keyframes line-line {
@@ -206,18 +213,15 @@
 }
 
 .homepage-main-card-div p {
-  font-size: 1.55rem;
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.45rem;
+  font-weight: 500 !important;
+  letter-spacing: 2.7px;
+  font-family: homeFont;
   width: 600px;
   display: flex;
   flex-direction: column;
   text-align: start;
-  background: linear-gradient(to right, #b2deff, #fcf4f4);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: whitesmoke;
 }
 
 
