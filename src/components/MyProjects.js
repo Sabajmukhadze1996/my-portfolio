@@ -9,6 +9,7 @@ import yourselfge from "../images/yourself.png";
 import lingwing from "../images/lingwing.png";
 import bds from "../images/bds.png";
 import dataart from "../images/dataart.jpg";
+import expImage from "../images/expimage.png";
 import Fade from "react-reveal";
 
 const MyProjects = () => {
@@ -16,7 +17,7 @@ const MyProjects = () => {
   return (
     <div className="my-projects-main-container">
       <Fade>
-        <div className="gear-logo-div">
+        {/* <div className="gear-logo-div">
           <span className="frameworks-container">
             <FaReact size={52} id="react-logo" color="#61DAFB" />
             <HiArrowNarrowRight size={24} id="nodejs-logo" color="#999" />
@@ -32,19 +33,27 @@ const MyProjects = () => {
             <HiArrowNarrowRight size={24} id="nodejs-logo" color="#999" />
             <GrNode size={51} id="nodejs-logo" color="#68A063" />
           </span>
-        </div>
+        </div> */}
+
+      <div style={{paddingLeft: "1.3rem", paddingRight: "1.8rem"}}>
+       <img id="expImage" src={expImage} alt="exp" />
+
+      </div>
+
         <div className="projects-line-div">
           <div className="projects-line"></div>
         </div>
       
-        <h1 className="full-stack-title">
+        {/* <h1 className="full-stack-title">
           Work Experience
-        </h1>
+        </h1> */}
 
 
 <div className="expreience-container">
   
  <Fade>
+
+
 <div className="card experience-card" >
   <img src={yourselfge} className="card-img-top" alt="..." />
   <div className="card-body">

@@ -5,7 +5,26 @@
 }
 
 
+#personalImage {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 370px;
+  height: 210px;
+  box-shadow: 
+  rgba(82, 46, 240, 0.175) -7px 7px, 
+  rgba(82, 46, 240, 0.148) -9px 9px,
+  rgba(124, 46, 240, 0.201) -15px 15px, 
+  rgba(124, 46, 240, 0.163) -18px 18px,
+  rgba(240, 46, 170, 0.05) -34px 32px,
+  rgba(255, 0, 0, 0.4) -7px 7px, /* Semi-transparent Reddish shadow */
+  rgba(133, 8, 8, 0.3) -9px 9px,
+  rgba(255, 99, 71, 0.5) -15px 15px, /* Semi-transparent Darker Reddish shadow */
+  rgba(255, 99, 71, 0.4) -18px 18px,
+  rgba(255, 0, 0, 0.1) -34px 32px; /* Very transparent Reddish shadow */
+  margin-bottom: 2.8rem;
 
+}
 
 
 .full-stack-title {
@@ -15,11 +34,8 @@
     padding-bottom: 1rem;
     margin-top: 3rem;
     padding-inline: 1.5rem;
-  
-    background: linear-gradient(to right, #b2deff, #fcf4f4);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   font-family: homeFont;
+   color: whitesmoke;
   }
   
   @media (max-width: 400px) {
@@ -91,6 +107,43 @@
       padding-inline: 1rem !important;
     }
   } */
+
+  #new-project-container button {
+    font-family: homeFont;
+  letter-spacing: 2px !important;
+  font-size: 1.45rem !important;
+  background-color: transparent !important;
+  border: 1px solid rgba(0, 255, 255, 0.238) !important;
+  transition: 0.3s ease;
+  width: 280px !important;
+  box-shadow: 10px -10px 0px rgba(33, 33, 33, 1), 20px -20px 0px rgba(33, 33, 33, 0.7), 30px -30px 0px rgba(33, 33, 33, 0.4), 40px -40px 0px rgba(33, 33, 33, 0.1);
+  position: relative;
+  top: 20px;
+  }
+
+  #new-project-container button:hover {
+    background-color: rgba(33, 33, 33, 0.211) !important;
+    border: 2px solid #fff !important;
+  }
+
+  @media(max-width: 381px) {
+    #new-project-container button {
+      width: 240px !important;
+  font-size: 1.35rem !important;
+
+    }
+  
+  }
+  
+  @media(max-width: 349px) {
+    #new-project-container button {
+      width: 220px !important;
+  font-size: 1.26rem !important;
+
+    }
+  
+  }
+  
   
   .my-projects-main-container {
     color: #fff;

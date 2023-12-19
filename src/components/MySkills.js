@@ -29,7 +29,7 @@ const MySkills = () => {
         <Fade>
           <div className="gear-logo-div">
             <span>
-              <GoGear size={44} id="gear-logo" color="#68A063" />
+              <GoGear size={94} id="gear-logo" color="#68A063" />
             </span>
           </div>
           <div className="gear-line-div">
@@ -37,7 +37,7 @@ const MySkills = () => {
           </div>
           <div className="skills-text-div">
             <h4 id="my-skills-title">
-              <span>{"<>"}</span>&nbsp;Front-End Development&nbsp;
+              <span>{"<>"}</span>&nbsp;Front-End <br /> Development&nbsp;
               <span>{"</>"}</span>
             </h4>
           </div>
@@ -172,7 +172,7 @@ const MySkills = () => {
         <Fade>
           <div className="skills-text-div">
             <h4 id="my-skills-title">
-              <span>{"<>"}</span>&nbsp;Back-End Development&nbsp;
+              <span>{"<>"}</span>&nbsp;Back-End <br /> Development&nbsp;
               <span>{"</>"}</span>
             </h4>
           </div>

@@ -4,6 +4,18 @@
   padding-bottom: 7rem;
 }
 
+#expImage {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 370px;
+  height: 210px;
+  box-shadow: rgba(82, 46, 240, 0.175) 7px 4px, rgba(240, 98, 46, 0.148) 9px 19px,
+    rgba(46, 114, 240, 0.201) 15px 15px, rgba(124, 46, 240, 0.163) 18px 18px,
+    rgba(46, 159, 240, 0.118) 34px 40px;
+    margin-bottom: 2.8rem;
+}
+
 .expreience-container {
   padding-inline: 1rem;
 }
@@ -25,6 +37,22 @@
     #081a2b31 74%
   ) !important;
 }
+
+.experience-card a {
+  font-family: homeFont;
+  letter-spacing: 2px !important;
+  font-size: 1.6rem;
+  background-color: transparent !important;
+  border: 1px solid gray !important;
+  transition: 0.3s ease;
+  box-shadow: -10px 10px 0px rgba(33, 33, 33, 1), -20px 20px 0px rgba(33, 33, 33, 0.7), -30px 30px 0px rgba(33, 33, 33, 0.4), -40px 40px 0px rgba(33, 33, 33, 0.1);
+}
+
+.experience-card a:hover {
+  background-color: rgba(33, 33, 33, 0.211) !important;
+  border: 2px solid #fff !important;
+}
+
 
 .experience-card .card-title {
   padding-left: 0.9rem;

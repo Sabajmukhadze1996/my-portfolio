@@ -10,6 +10,8 @@ import weather_app from "../images/weather.png";
 import trader_ticket from "../images/trade-ticket.png";
 import eCommerce from "../images/comm.png";
 import bazarGe from "../images/bazarge.png";
+import personalImg from "../images/personalpr.png";
+
 import Fade from "react-reveal";
 
 
@@ -17,7 +19,7 @@ const PersonalProjects = () => {
     return (
         <div className="my-projects-main-container">
         <Fade>
-          <div className="gear-logo-div">
+          {/* <div className="gear-logo-div">
             <span className="frameworks-container">
               <FaReact size={52} id="react-logo" color="#61DAFB" />
               <HiArrowNarrowRight size={24} id="nodejs-logo" color="#999" />
@@ -33,7 +35,14 @@ const PersonalProjects = () => {
               <HiArrowNarrowRight size={24} id="nodejs-logo" color="#999" />
               <GrNode size={51} id="nodejs-logo" color="#68A063" />
             </span>
-          </div>
+          </div> */}
+
+<div style={{paddingLeft: "2rem", paddingRight: "1.3rem"}}>
+       <img id="personalImage" src={personalImg} alt="pers" />
+
+      </div>
+
+
           <div className="projects-line-div">
             <div className="projects-line"></div>
           </div>

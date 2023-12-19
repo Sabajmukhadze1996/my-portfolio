@@ -59,7 +59,7 @@ const HomePage = () => {
         <Fade left>
           <h1>Interested in Working Together ?</h1>
         </Fade>
-        <Fade right>
+        <Fade top>
           <ContactModal />
         </Fade>
       </div>

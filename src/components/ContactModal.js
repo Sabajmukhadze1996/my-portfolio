@@ -75,7 +75,7 @@ const ContactModal = () => {
           }}
           type="button"
         >
-          <MdContactPhone size={20} fill="orange" style={{position: "relative", top: "1.6px", width: "50px"}}/>
+          <MdContactPhone size={20} fill="orange" style={{position: "relative", top: "-0.5px", width: "50px"}}/>
           {content.contact}
         </button>
       </div>

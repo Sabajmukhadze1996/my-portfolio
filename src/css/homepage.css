@@ -229,11 +229,12 @@
   width:230px;
   height: 230px;
   border-radius: 50%;
-  box-shadow: 0px 0px 2px #fff;
+  box-shadow: 0px 4px 3px 0.5px #1589c7a0;
   padding: 0.7rem;
   cursor: pointer;
   filter: brightness(97%);
   object-fit: cover;
+
 }
 
 @media (max-width: 784px) {

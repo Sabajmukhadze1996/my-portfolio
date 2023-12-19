@@ -17,6 +17,7 @@ const Navbar = () => {
 
   function play() {
     new Audio(sound).play();
+    
   }
 
   useEffect(() => {
