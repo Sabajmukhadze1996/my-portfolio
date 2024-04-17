@@ -29,7 +29,7 @@ const Footer = () => {
         <span>{content.all_rights_reserved}</span>
       </div>
       <div  className="copyright-div d-flex justify-content-center">
-        <span>Copyright &copy; <span style={{color: "cyan"}}>2023</span></span>
+        <span>Copyright &copy; <span style={{color: "cyan"}}>2024</span></span>
       </div>
     </footer>
   );

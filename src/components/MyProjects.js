@@ -51,29 +51,12 @@ const MyProjects = () => {
 
 <div className="expreience-container">
   
- <Fade>
-
-
-<div className="card experience-card" >
-  <img src={yourselfge} className="card-img-top" alt="..." />
-  <div className="card-body">
-    <div className="card-title"><p>Yourself.ge (startup)</p> <p className="profession">July 2023 - November 2023</p></div>
-    <p className="date">Full-Stack Developer - (React.js, Next.js, Node.js)</p>
-    <ul>
-      <li>Used React-Redux Toolkit library for state management.</li>
-      <li>Implemented Bootstrap and MUI libraries to create a visually engaging and responsive layout.</li>
-      <li>Executed secure JWT authorization on the server-side to fortify against XSS attacks.</li>
-    </ul>
-    <a href="https://yourselfge.vercel.app/" className="btn btn-primary mt-1" target="_blank">View the Project</a>
-  </div>
-</div>
-</Fade> 
 
 <Fade>
 <div className="card experience-card" >
   <img src={lingwing} className="card-img-top" alt="..." />
   <div className="card-body">
-    <div className="card-title"><p>Lingwing</p> <p className="profession">March 2023 - June 2023</p></div>
+    <div className="card-title"><p>Lingwing</p> <p className="profession">March 2023 - November 2023</p></div>
     <p className="date">Full-Stack Developer - (React.js, Next.js, Node.js)</p>
     <ul>
       <li>Created the Admin page of the website.</li>
@@ -90,7 +73,7 @@ const MyProjects = () => {
 <div className="card experience-card" >
   <img src={bds} className="card-img-top" alt="..." />
   <div className="card-body">
-    <div className="card-title"><p className="bds-title">Business Development Solutions</p> <p className="profession">June 2022 - January 2023 </p></div>
+    <div className="card-title"><p className="bds-title">Business Development Solutions</p> <p className="profession">September 2021 - January 2023 </p></div>
     <p className="date">Front-End Developer - (React.js, React-Native)</p>
     <ul>
       <li>Worked on the development of an e-commerce website and application.</li>
@@ -102,19 +85,7 @@ const MyProjects = () => {
 </Fade>
 
 
-<Fade>
-<div className="card experience-card" >
-  <img src={dataart} className="card-img-top" alt="..." />
-  <div className="card-body">
-    <div className="card-title"><p className="bds-title">Data Art</p> <p className="profession">May 2021 - April 2022 </p></div>
-    <p className="date">Front-End Developer - (React.js)</p>
-    <ul>
-      <li>Launched React.js UI with Bootstrap and Material UI, crafted reusable components for code stability and enhanced readability.</li>
-    </ul>
-    <a href="https://www.dataart.com/" className="btn btn-primary mt-1" target="_blank">View the Website</a>
-  </div>
-</div>
-</Fade>
+
 
 
 

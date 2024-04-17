@@ -113,7 +113,7 @@ const ContactModal = () => {
                   className="d-flex align-items-center pt-3 pb-3"
                 >
                   <ImLocation2 size={20} color="crimson" />
-                  &nbsp;&nbsp;{content.tbilisi}
+                  &nbsp;&nbsp;Tbilisi, Georgia
                 </li>
                 <li
                   id="contact-items"

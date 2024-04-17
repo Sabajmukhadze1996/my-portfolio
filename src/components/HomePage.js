@@ -41,7 +41,7 @@ const HomePage = () => {
 
       <div className="homepage-main-card-div">
         <Fade>
-          <img src={basLogo} alt="my-img" />
+          <img src={sabaImg} alt="my-img" />
         </Fade>
 
         <Fade bottom>
