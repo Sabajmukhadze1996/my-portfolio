@@ -132,13 +132,13 @@
  
   }
 
-  .interestedInContainer h1 {
+  .interestedInContainer h2 {
     padding-inline: 2rem !important;
-    font-size: 2.2rem !important;
+    font-size: 2rem !important;
   }
 }
 
-@media(max-width: 690px) {
+@media(max-width: 893px) {
   .interestedInContainer {
     /* padding-inline: 2.5rem; */
 
@@ -146,21 +146,21 @@
   gap: 2rem;
   }
 
-  .interestedInContainer h1 {
+  .interestedInContainer h2 {
     padding-inline: 2rem !important;
-    font-size: 2.2rem !important;
+    font-size: 2rem !important;
   }
 }
 
-.interestedInContainer h1 {
-  letter-spacing: 3.8px;
+.interestedInContainer h2 {
+  letter-spacing: 1.6px;
   width: 400px;
   max-width: 100%;
-  font-weight: 800;
+  font-weight: 700;
 
 
-  font-family: selfFont;
-  color: whitesmoke !important;
+  /* font-family: selfFont; */
+  color: #dbeef6 !important;
 }
 
 @keyframes line-line {
@@ -213,15 +213,18 @@
 }
 
 .homepage-main-card-div p {
-  font-size: 1.45rem;
-  font-weight: 500 !important;
-  letter-spacing: 2.7px;
-  font-family: homeFont;
+  font-size: 1.13rem;
+  font-weight: 400 !important;
+  letter-spacing: 2.4px;
+  /* font-family: homeFont; */
   width: 600px;
   display: flex;
   flex-direction: column;
   text-align: start;
-  color: whitesmoke;
+  color: #dbeef6;
+  padding-left: 20px !important;
+  padding-right: 10px !important;
+  display: block !important;
 }
 
 
@@ -237,7 +240,7 @@
 
 }
 
-@media (max-width: 784px) {
+@media (max-width: 893px) {
   .homepage-main-card-div {
     flex-direction: column;
     padding-inline: 4rem;
@@ -245,7 +248,7 @@
   .homepage-main-card-div p {
     margin-top: 2.3rem;
     width: 100% !important;
-    font-size: 1.47rem;
+    /* font-size: 1.47rem; */
     text-align: center !important;
     padding-inline: 10px;
   }
@@ -256,13 +259,13 @@
     flex-direction: column;
     padding-inline: 1.5rem;
   }
-  .homepage-main-card-div p {
+  /* .homepage-main-card-div p {
     margin-top: 2.3rem;
     width: 100% !important;
     font-size: 1.47rem;
     text-align: center !important;
     padding-inline: 10px;
-  }
+  } */
 }
 
 

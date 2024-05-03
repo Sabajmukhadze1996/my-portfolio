@@ -45,19 +45,19 @@ const style = {
 const ContactModal = () => {
   const { content } = useContext(Translation);
 
-  const [hasClicked, setHasClicked] = useState(false);
+  // const [hasClicked, setHasClicked] = useState(false);
 
-  function play() {
-    new Audio(sound).play();
-  }
+  // function play() {
+  //   new Audio(sound).play();
+  // }
 
-  function handleClick() {
-    if (!hasClicked) {
-      setHasClicked(true);
-      play();
-    }
-    play();
-  }
+  // function handleClick() {
+  //   if (!hasClicked) {
+  //     setHasClicked(true);
+  //     play();
+  //   }
+  //   play();
+  // }
 
   const [openContactModal, setOpenContactModal] = useState(false);
   const handleCloseContactModal = () => setOpenContactModal(false);
@@ -70,7 +70,7 @@ const ContactModal = () => {
           className="contact-btn"
           id="contactBtn"
           onClick={() => {
-            handleClick();
+            // handleClick();
             setOpenContactModal(true);
           }}
           type="button"

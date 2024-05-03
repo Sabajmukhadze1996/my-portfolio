@@ -46,8 +46,12 @@ const HomePage = () => {
 
         <Fade bottom>
           <p>
-            <FaLaptop id="home-page-welcome-text-logo" fill="orange" />
-            My name is Saba Jmukhadze. From Tbilisi, Georgia, I am actively involved in Full-Stack Web & Mobile development, specializing in Front-End using React.js and Back-End using Node.js.
+            <FaLaptop id="home-page-welcome-text-logo" fill="orange" />I am Saba
+            Jmukhadze, a self-taught developer specializing in Full-Stack Web &
+            Mobile development. My expertise encompasses Front-End technologies
+            such as React.js, Next.js, React-Native, and Back-End technologies
+            including Node.js. My experience extends across both web and mobile
+            platforms.
           </p>
         </Fade>
       </div>
@@ -57,7 +61,7 @@ const HomePage = () => {
 
       <div className="interestedInContainer">
         <Fade left>
-          <h1>Interested in Working Together ?</h1>
+          <h2>Interested in Working Together ?</h2>
         </Fade>
         <Fade top>
           <ContactModal />
