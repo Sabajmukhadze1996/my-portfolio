@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ae635ee1.css",
-    "main.js": "/my-portfolio/static/js/main.e0d9bf4a.js",
+    "main.css": "/my-portfolio/static/css/main.8ad1f0a1.css",
+    "main.js": "/my-portfolio/static/js/main.35d8442a.js",
     "static/media/bazarge.png": "/my-portfolio/static/media/bazarge.250aa58f06d291c560de.png",
     "static/media/yourself.png": "/my-portfolio/static/media/yourself.00c279f37c14e7a19914.png",
+    "static/media/car-parts.png": "/my-portfolio/static/media/car-parts.fac51a02e0dff49e8084.png",
     "static/media/trade-ticket.png": "/my-portfolio/static/media/trade-ticket.8bed0ca9672f0d87ff96.png",
     "static/media/lingwing.png": "/my-portfolio/static/media/lingwing.b31888abf01319df8ff8.png",
     "static/media/comm.png": "/my-portfolio/static/media/comm.598b27142c1c82921495.png",
@@ -29,11 +30,11 @@
     "static/media/express.png": "/my-portfolio/static/media/express.9b344d7469dbbdc76754.png",
     "static/media/node.png": "/my-portfolio/static/media/node.76c4cc089acd4f93c32e.png",
     "index.html": "/my-portfolio/index.html",
-    "main.ae635ee1.css.map": "/my-portfolio/static/css/main.ae635ee1.css.map",
-    "main.e0d9bf4a.js.map": "/my-portfolio/static/js/main.e0d9bf4a.js.map"
+    "main.8ad1f0a1.css.map": "/my-portfolio/static/css/main.8ad1f0a1.css.map",
+    "main.35d8442a.js.map": "/my-portfolio/static/js/main.35d8442a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae635ee1.css",
-    "static/js/main.e0d9bf4a.js"
+    "static/css/main.8ad1f0a1.css",
+    "static/js/main.35d8442a.js"
   ]
 }
