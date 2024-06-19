@@ -69,15 +69,25 @@
   }
 }
 
-@media (max-width: 695px) {
+@media (max-width: 720px) {
   .frameworks-container {
     gap: 3rem;
   }
 }
 
-@media (max-width: 496px) {
+@media (max-width: 616px) {
   .frameworks-container {
-    gap: 1.5rem;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 528px) {
+  .frameworks-container  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: 0.5rem;
+
   }
 }
 

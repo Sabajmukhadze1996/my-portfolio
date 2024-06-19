@@ -12,6 +12,7 @@ import eCommerce from "../images/comm.png";
 import bazarGe from "../images/bazarge.png";
 import personalImg from "../images/personalpr.png";
 import yourselfgeImg from "../images/yourself.png";
+import carPartsImg from "../images/car-parts.png";
 
 import Fade from "react-reveal";
 
@@ -54,6 +55,64 @@ const PersonalProjects = () => {
           </h1>
   
           <div className="full-stack-projects-container">
+
+
+          <div
+              className="card"
+              id="new-project-container"
+              style={{
+                maxWidth: "40rem",
+                backgroundColor: "transparent",
+                margin: "0 auto",
+                marginTop: "3rem",
+              }}
+            >
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://car-parts-georgia.vercel.app/home"
+              >
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src={carPartsImg}
+                  className="card-img-top "
+                  alt="e-commerce"
+                />
+                <div className="full-stack-card-body">
+                  <h5
+                    className="card-title"
+                    style={{ color: "#fff", letterSpacing: "0.8px" }}
+                  >
+                   Car Parts Georgia
+                  </h5>
+                  <p
+                    className="card-text"
+                    style={{
+                      color: "#fff",
+                      letterSpacing: "0.8px",
+                      lineHeight: "1.8rem",
+                    }}
+                  >
+                 <li>Implemented advanced data fetching using Angular services and RxJS
+observables for optimized Front-End data handling.
+Integrated industry best practices for optimizing REST API performance</li>
+                  </p>
+                  <button
+                    id="new-project-btn"
+                    className="mt-4 btn btn-success"
+                    style={{
+                        width: "170px",
+                      color: "#fff",
+                      borderRadius: "5px",
+                    }}
+                  >
+                     View the Project
+                  </button>
+                </div>
+              </a>
+            </div>
+
 
 
 
