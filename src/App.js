@@ -9,8 +9,6 @@ import TranslationContextProvider from "./components/TranslationContextProvider"
 import LoadingText from "./components/LoadingText";
 import PersonalProjects from "./components/PersonalProjects";
 
-
-
 const App = () => {
   const [loading, setLoading] = useState(true);
 
@@ -24,7 +22,6 @@ const App = () => {
     }, 1000);
   }, []);
 
-  
   return (
     <>
       {loading ? (
@@ -38,14 +35,16 @@ const App = () => {
                 <Routes>
                   <Route path="/*" element={<HomePage />} />
                   <Route path="/work-experience" element={<MyProjects />} />
-                  <Route path="/personal-projects" element={<PersonalProjects />} />
+                  <Route
+                    path="/personal-projects"
+                    element={<PersonalProjects />}
+                  />
                   <Route path="/my-skills" element={<MySkills />} />
                 </Routes>
               </main>
               <Footer />
             </div>
           </BrowserRouter>
-         
         </TranslationContextProvider>
       )}
     </>

@@ -18,6 +18,7 @@ import express_img from "../images/express.png";
 import rest_img from "../images/rest.png";
 import mysql_img from "../images/mysql.png";
 import aws_img from "../images/aws.png";
+import vue_logo from "../images/vue.png";
 import Fade from "react-reveal";
 
 const MySkills = () => {
@@ -115,6 +116,22 @@ const MySkills = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title">React-Native</h5>
+                  <hr />
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card skills-card">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src={vue_logo}
+                  style={{ width: 95, height: 95, borderRadius: 100 }}
+                  className="card-img-top"
+                  alt="React-Native"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Vue.js</h5>
                   <hr />
                 </div>
               </div>
@@ -242,7 +259,6 @@ const MySkills = () => {
               </div>
             </div>
 
-
             <div className="col">
               <div className="card skills-card">
                 <img
@@ -266,7 +282,7 @@ const MySkills = () => {
                   src={aws_img}
                   className="card-img-top"
                   alt="AWS"
-                  style={{borderRadius: "50%"}}
+                  style={{ borderRadius: "50%" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">AWS</h5>

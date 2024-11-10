@@ -3,13 +3,13 @@
   src: url("../Grosball.otf");
 }
 
-
 #home-page-welcome-text-logo {
   animation: zoom-in-out 1s ease;
   transform-origin: center;
   display: block;
   margin: 0 auto;
   font-size: 2rem;
+
   margin-bottom: 1rem;
 }
 
@@ -63,33 +63,47 @@
   margin-bottom: 2rem;
 }
 
-@media (max-width: 910px) {
+.frameworks-container .frameworks-logo {
+  font-size: clamp(45px, 7.5vw, 58px);
+}
+
+.frameworks-container .frameworks-arrow {
+  font-size: clamp(21px, 4vw, 35px);
+}
+
+.frameworks-container {
+  gap: clamp(10px, 6vw, 100px);
+}
+
+@media (max-width: 472px) {
   .frameworks-container {
-    gap: 4rem;
+    gap: clamp(10px, 4vw, 100px);
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 472px) {
   .frameworks-container {
-    gap: 3rem;
+    gap: clamp(10px, 3.8vw, 100px);
+  }
+
+  .frameworks-container .frameworks-logo {
+    font-size: clamp(45px, 3vw, 100px);
+  }
+
+  .frameworks-container .frameworks-arrow {
+    font-size: clamp(14px, 3vw, 35px);
   }
 }
 
-@media (max-width: 616px) {
+/* @media (max-width: 528px) {
   .frameworks-container {
-    gap: 2rem;
-  }
-}
-
-@media (max-width: 528px) {
-  .frameworks-container  {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-inline: 0.5rem;
-
+    gap: clamp(5px, 6vw, 50px) !;
   }
-}
+} */
 
 /* new */
 
@@ -119,27 +133,21 @@
   padding-top: 1.2rem;
 }
 
-
-@media(max-width: 1401px) {
+@media (max-width: 1401px) {
   .interestedInContainer {
-
-  padding-inline: 4.5rem;
+    padding-inline: 4.5rem;
   }
 }
 
-
-@media(max-width: 1257px) {
+@media (max-width: 1257px) {
   .interestedInContainer {
-
-  padding-inline: 4rem;
+    padding-inline: 4rem;
   }
 }
 
-@media(max-width: 878px) {
+@media (max-width: 878px) {
   .interestedInContainer {
     padding-inline: 2.5rem;
-
- 
   }
 
   .interestedInContainer h2 {
@@ -148,12 +156,12 @@
   }
 }
 
-@media(max-width: 893px) {
+@media (max-width: 893px) {
   .interestedInContainer {
     /* padding-inline: 2.5rem; */
 
-  flex-direction: column;
-  gap: 2rem;
+    flex-direction: column;
+    gap: 2rem;
   }
 
   .interestedInContainer h2 {
@@ -167,7 +175,6 @@
   width: 400px;
   max-width: 100%;
   font-weight: 700;
-
 
   /* font-family: selfFont; */
   color: #dbeef6 !important;
@@ -192,9 +199,10 @@
   padding-bottom: 1rem;
 
   justify-content: space-between;
-  max-width: 1100px;
+  max-width: 1100px !important;
   width: 100%;
-  column-gap: 5rem;
+  gap: clamp(0px, 60vw, 100px);
+
   margin: 0 auto;
 }
 
@@ -204,26 +212,25 @@
   }
 }
 
-@media (max-width: 1257px) {
-  .homepage-main-card-div {
-    max-width: 1000px;
-    padding-inline: 3rem;
-    padding-left: 4rem;
-    column-gap: 10rem;
-  }
-  .homepage-main-card-div p {
-    text-align: center;
-  }
+.homepage-main-card-div {
+  max-width: 1000px;
+  padding-inline: 3rem;
+  padding-left: 4rem;
+  /* column-gap: 10rem; */
+}
+.homepage-main-card-div p {
+  text-align: center;
 }
 
-@media (max-width: 826px) {
+/* @media (max-width: 826px) {
   .homepage-main-card-div {
     column-gap: 5rem;
   }
-}
+} */
 
 .homepage-main-card-div p {
-  font-size: 1.13rem;
+  font-size: clamp(19px, 2.1vw, 20.5px);
+  line-height: clamp(19px, 8vw, 32px);
   font-weight: 400 !important;
   letter-spacing: 2.4px;
   /* font-family: homeFont; */
@@ -235,24 +242,26 @@
   padding-left: 20px !important;
   padding-right: 10px !important;
   display: block !important;
+  font-weight: 500 !important;
 }
 
-
 .homepage-main-card-div img {
-  width:230px;
-  height: 230px;
+  /* width: 230px;
+  height: 230px; */
+  width: clamp(220px, 35vw, 260px);
   border-radius: 50%;
   box-shadow: 0px 4px 3px 0.5px #093e5b8f;
   padding: 0.7rem;
   cursor: pointer;
   filter: brightness(93%);
   object-fit: cover;
-
 }
 
 @media (max-width: 893px) {
   .homepage-main-card-div {
     flex-direction: column;
+    gap: clamp(0px, 60vw, 10px);
+
     padding-inline: 4rem;
   }
   .homepage-main-card-div p {
@@ -277,7 +286,6 @@
     padding-inline: 10px;
   } */
 }
-
 
 .contact-btn-div {
   display: flex;
@@ -326,18 +334,15 @@
   }
 }
 
-@media(max-width: 466px) {
+@media (max-width: 466px) {
   .interestedInContainer {
-        padding-inline: 0rem !important;
+    padding-inline: 0rem !important;
   }
-
- 
 }
-@media(max-width: 466px) {
+@media (max-width: 466px) {
   .homepage-main-card-div p {
     padding-inline: 0rem !important;
   }
- 
 }
 
 .contact-line-div {

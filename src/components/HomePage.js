@@ -8,7 +8,8 @@ import { GrNode } from "react-icons/gr";
 import { FaLaptop } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { FaAngular } from "react-icons/fa";
+import { IoLogoVue } from "react-icons/io5";
+
 import ContactModal from "./ContactModal";
 import Fade from "react-reveal";
 
@@ -20,21 +21,21 @@ const HomePage = () => {
       <div className="react-logo-div">
         <Fade>
           <span className="frameworks-container">
-            <FaAngular size={52} id="angular-logo" color="red"/>
-            <HiArrowNarrowRight size={24} id="nodejs-logo" color="#999" />
-            <FaReact size={52} id="react-logo" color="#61DAFB" />
-            <HiArrowNarrowRight size={24} id="nodejs-logo" color="#999" />
+            <IoLogoVue className="frameworks-logo" color="#42b883" />
+            <HiArrowNarrowRight className="frameworks-arrow" color="#999" />
+            <FaReact color="#61DAFB" className="frameworks-logo" />
+            <HiArrowNarrowRight className="frameworks-arrow" color="#999" />
             <SiNextdotjs
+              className="frameworks-logo"
               style={{
                 backgroundColor: "#fff",
                 borderRadius: "100%",
                 boxShadow: "0px 0px 0px 1px #61DAFB",
               }}
-              size={51}
               color="#000A99"
             />
-            <HiArrowNarrowRight size={24} id="nodejs-logo" color="#999" />
-            <GrNode size={51} id="nodejs-logo" color="#68A063" />
+            <HiArrowNarrowRight className="frameworks-arrow" color="#999" />
+            <GrNode className="frameworks-logo" color="#68A063" />
           </span>
         </Fade>
       </div>
@@ -49,12 +50,11 @@ const HomePage = () => {
 
         <Fade bottom>
           <p>
-            <FaLaptop id="home-page-welcome-text-logo" fill="orange" />I am Saba
-            Jmukhadze, a self-taught developer specializing in Full-Stack Web &
-            Mobile development. My expertise encompasses Front-End technologies
-            such as Angular, React.js, Next.js, React-Native, and Back-End technologies
-            including Node.js. My experience extends across both web and mobile
-            platforms.
+            <FaLaptop id="home-page-welcome-text-logo" fill="orange" />
+            "Full-Stack Web & Mobile developer with expertise in Front-End
+            frameworks like Vue.js, React.js, Next.js, React-Native, and
+            Back-End technologies including Node.js, with experience across both
+            web and mobile platforms."
           </p>
         </Fade>
       </div>
